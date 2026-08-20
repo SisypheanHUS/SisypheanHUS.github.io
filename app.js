@@ -504,6 +504,10 @@ document.addEventListener('click', (e) => {
     state.tag = chip.dataset.tag;
     render();
   }
+  // A link to the hash we are already on fires no hashchange event,
+  // which would leave a search overlay stuck — re-route by hand.
+  const link = e.target.closest('a[href^="#/"]');
+  if (link && link.getAttribute('href') === location.hash) route();
 });
 
 window.addEventListener('hashchange', route);
