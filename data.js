@@ -80,6 +80,24 @@ const HOME = {
 
 const POSTS = [
   {
+    slug: 'thesis-notebook', date: '2026-09-15', read: { en: '1 min read', vi: '1 phút đọc' }, tags: ['upcoming', 'thesis', 'math', 'life'],
+    title: { en: 'The thesis notebook', vi: 'Sổ tay khóa luận' },
+    excerpt: { en: 'A running account of writing my graduation thesis — what works, what does not, and everything I would tell myself six months ago.', vi: 'Ghi chép dần trong quá trình làm khóa luận tốt nghiệp — cái gì ổn, cái gì không, và mọi thứ tôi muốn nói với chính mình sáu tháng trước.' },
+    body: [{ note: 'draft' }]
+  },
+  {
+    slug: 'hcm-physics-summer-school-2026', date: '2026-08-30', read: { en: '1 min read', vi: '1 phút đọc' }, tags: ['upcoming', 'physics', 'summer school', 'ho chi minh city'],
+    title: { en: 'Ho Chi Minh City, for a physics summer school', vi: 'TP. Hồ Chí Minh, trường hè Vật lý' },
+    excerpt: { en: 'A week in Ho Chi Minh City for a physics summer school, August 2026. Full write-up coming.', vi: 'Một tuần ở TP. Hồ Chí Minh cho trường hè Vật lý, tháng 8 năm 2026. Bài viết đầy đủ sắp có.' },
+    body: [{ note: 'draft' }]
+  },
+  {
+    slug: 'singapore-iqc-2025', date: '2026-08-24', read: { en: '1 min read', vi: '1 phút đọc' }, tags: ['upcoming', 'singapore', 'IQC', 'quant'],
+    title: { en: 'Singapore, for the IQC 2025 Global Final', vi: 'Singapore, chung kết toàn cầu IQC 2025' },
+    excerpt: { en: 'Notes from the WorldQuant International Quant Championship 2025 finals — twelve delegates, one from Vietnam. Writing this up soon.', vi: 'Ghi chép từ chung kết International Quant Championship 2025 của WorldQuant — mười hai đại diện, một người đến từ Việt Nam. Sắp viết.' },
+    body: [{ note: 'draft' }]
+  },
+  {
     slug: 'nara', date: '2025-09-02', read: { en: '11 min read', vi: '11 phút đọc' }, tags: ['nara', 'math biology', 'life'],
     title: { en: 'One month in Nara', vi: 'Một tháng ở Nara' },
     excerpt: { en: 'Population dynamics in the morning, deer in the afternoon, and a birthday spent watching a film about a girl who does not exist.', vi: 'Buổi sáng học động lực quần thể, buổi chiều gặp hươu, và một ngày sinh nhật ngồi xem phim về một cô gái không tồn tại.' },
