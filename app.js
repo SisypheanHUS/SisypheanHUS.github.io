@@ -316,7 +316,7 @@ function renderAbout() {
       </div>
       <aside class="about-aside" style="border-left:2px solid var(--color-divider);padding-left:22px;display:flex;flex-direction:column;gap:22px">
         <figure style="margin:0">
-          <div class="grayscale"><img src="assets/portrait.jpeg" alt="Dinh Thai Tuan" loading="lazy" style="width:100%;height:auto;display:block"></div>
+          <img src="assets/portrait.jpeg" alt="Dinh Thai Tuan" loading="lazy" style="width:100%;height:auto;display:block">
           <figcaption style="margin-top:8px;font:400 11px/1.5 var(--font-body);letter-spacing:.12em;text-transform:uppercase;opacity:.5">Hanoi, 2026</figcaption>
         </figure>
         <div>
