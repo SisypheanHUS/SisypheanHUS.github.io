@@ -122,8 +122,7 @@ const POSTS = [
       { h: { en: 'The certificate', vi: 'Tờ giấy chứng nhận' }, id: 'nara-cert' },
       { p: { en: 'At the end I presented an SIR model built in R — small, honest, and corrected kindly on the parameters and less kindly on my R style. Then Professor Takasu handed me a certificate in a computer room, and someone took this photo, and the month was over.', vi: 'Cuối chương trình tôi trình bày một mô hình SIR viết bằng R — nhỏ, thật thà, bị sửa một cách tử tế ở phần tham số và ít tử tế hơn ở cách viết R. Rồi Giáo sư Takasu trao cho tôi tờ chứng nhận trong một phòng máy, ai đó chụp bức ảnh này, và thế là hết một tháng.' } },
       { img: 'assets/cert.jpeg', cap: 'With Professor Fugo Takasu' },
-      { p: { en: 'The certificate wasn’t really the point. What stuck with me is that population biologists ask different questions of the same equations than I was trained to ask — less about solving them, more about what the solution says about something alive.', vi: 'Tờ chứng nhận không phải điều đọng lại. Cái tôi nhớ hơn là các nhà sinh học quần thể đặt câu hỏi khác với cùng một hệ phương trình so với những gì tôi được dạy — ít quan tâm nghiệm là gì, mà quan tâm nghiệm đó nói lên điều gì về một thứ đang sống.' } },
-      { p: { en: 'great experience. Never coming back, I promise.', vi: 'great experience. Never coming back, I promise.' } }
+      { p: { en: 'The certificate wasn’t really the point. What stuck with me is that population biologists ask different questions of the same equations than I was trained to ask — less about solving them, more about what the solution says about something alive.', vi: 'Tờ chứng nhận không phải điều đọng lại. Cái tôi nhớ hơn là các nhà sinh học quần thể đặt câu hỏi khác với cùng một hệ phương trình so với những gì tôi được dạy — ít quan tâm nghiệm là gì, mà quan tâm nghiệm đó nói lên điều gì về một thứ đang sống.' } }
     ]
   }
 ];
