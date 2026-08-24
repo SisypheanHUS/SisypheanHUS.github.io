@@ -84,13 +84,6 @@ a:hover { color: var(--color-accent-700); }
   flex: 1; min-width: 0; border: 0; background: transparent;
   font: 400 13px/1.4 var(--font-body); color: var(--color-text); outline: none;
 }
-.lang-switch { display: flex; border: 1px solid var(--color-divider); }
-.seg-btn {
-  font: 800 11px/1 var(--font-heading); letter-spacing: .06em;
-  padding: 0 11px; height: 34px; cursor: pointer; border: 0;
-  background: transparent; color: var(--color-text); opacity: .65;
-}
-.seg-btn.on { background: var(--color-accent); color: var(--color-bg); opacity: 1; }
 .iconbtn {
   display: flex; align-items: center; justify-content: center;
   width: 34px; height: 34px; padding: 0; cursor: pointer;

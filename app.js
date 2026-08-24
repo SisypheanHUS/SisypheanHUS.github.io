@@ -3,7 +3,6 @@
    start with "#/" are in-page anchors (post TOC) and are ignored here. */
 
 const state = {
-  lang: localStorage.getItem('lang') || 'en',
   theme: localStorage.getItem('theme') || 'light',
   page: 'home',
   doc: null,
@@ -15,7 +14,7 @@ const state = {
 const L = (o) => {
   if (o == null) return '';
   if (typeof o === 'string') return o;
-  return o[state.lang] !== undefined ? o[state.lang] : o.en;
+  return o.en;
 };
 
 /* ---------- shared fragments ---------- */
@@ -405,12 +404,9 @@ function renderRail() {
 }
 
 function renderChrome() {
-  document.documentElement.lang = state.lang;
   document.getElementById('brand-role').textContent = L(UI.role);
   document.getElementById('search-input').placeholder = L(UI.search);
   document.getElementById('footer-motto').textContent = L(UI.builtWith);
-  document.getElementById('btn-en').classList.toggle('on', state.lang === 'en');
-  document.getElementById('btn-vi').classList.toggle('on', state.lang === 'vi');
   document.getElementById('btn-theme').title = L(UI.theme);
   const dark = state.theme === 'dark';
   document.documentElement.dataset.theme = dark ? 'dark' : '';
@@ -479,12 +475,6 @@ function route() {
 
 /* ---------- events ---------- */
 
-document.getElementById('btn-en').addEventListener('click', () => {
-  state.lang = 'en'; localStorage.setItem('lang', 'en'); render();
-});
-document.getElementById('btn-vi').addEventListener('click', () => {
-  state.lang = 'vi'; localStorage.setItem('lang', 'vi'); render();
-});
 document.getElementById('btn-theme').addEventListener('click', () => {
   state.theme = state.theme === 'dark' ? 'light' : 'dark';
   localStorage.setItem('theme', state.theme);
