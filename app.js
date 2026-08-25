@@ -179,6 +179,29 @@ function renderReserved(num, title) {
   return `<div style="max-width:900px">${sectionHeader(num, title)}${emptyState()}</div>`;
 }
 
+function renderProjects() {
+  const rows = PROJECTS.map((p) => `
+    <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:24px;padding:24px 0;border-bottom:1px solid var(--color-divider)">
+      <span style="font:400 10px/1.6 var(--font-body);letter-spacing:.12em;text-transform:uppercase;color:var(--color-accent)">${L(p.kind)}</span>
+      <div>
+        <div style="font:400 13px/1.5 var(--font-body);opacity:.6;margin-bottom:6px">${p.date}</div>
+        <h3 style="margin:0 0 8px;font-size:19px;line-height:1.3;letter-spacing:-.01em;max-width:44ch;font-family:var(--font-heading)">${L(p.title)}</h3>
+        <div style="font:400 13.5px/1.55 var(--font-body);opacity:.78;max-width:66ch">${L(p.summary)}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:12px">${(p.tags || []).map((t) => `<span class="tag tag-neutral">${t}</span>`).join('')}</div>
+        <div style="display:flex;gap:18px;margin-top:14px;font:400 13px/1 var(--font-body)">
+          ${p.live ? `<a href="${p.live}" target="_blank" rel="noopener" class="quiet-link">${L(UI.liveSite)} ↗</a>` : ''}
+          ${p.source ? `<a href="${p.source}" target="_blank" rel="noopener" class="quiet-link">${L(UI.sourceCode)} ↗</a>` : ''}
+        </div>
+      </div>
+    </div>`).join('');
+
+  return `
+  <div style="max-width:880px">
+    ${sectionHeader('04', L(UI.projectsTitle))}
+    ${rows || emptyState()}
+  </div>`;
+}
+
 function renderPublications() {
   const pubs = PUBS.map((p) => `
     <div style="display:grid;grid-template-columns:96px minmax(0,1fr);gap:24px;padding:24px 0;border-bottom:1px solid var(--color-divider)">
@@ -359,6 +382,8 @@ function renderSearch() {
   const results = []
     .concat(POSTS.filter((p) => hit(L(p.title)) || hit(L(p.excerpt)) || hit(p.tags.join(' ')))
       .map((p) => ({ kind: L(UI.kindPost), title: L(p.title), excerpt: L(p.excerpt), href: `#/blog/${p.slug}`, from: 'blog' })))
+    .concat(PROJECTS.filter((p) => hit(L(p.title)) || hit(L(p.summary)) || hit((p.tags || []).join(' ')))
+      .map((p) => ({ kind: L(UI.kindProject), title: L(p.title), excerpt: L(p.summary), href: '#/projects' })))
     .concat(MATERIALS.reduce((acc, g) => acc.concat(g.items.filter((m) => hit(m.title) || hit(m.ref) || hit(m.note))
       .map((m) => ({ kind: g.name, title: m.title, excerpt: m.ref + ' · ' + m.formats, href: '#/materials' }))), []));
 
@@ -447,7 +472,7 @@ function render() {
   else if (state.page === 'home') html = renderHome();
   else if (state.page === 'blog') html = renderBlog();
   else if (state.page === 'notes') html = renderReserved('03', L(UI.notesTitle));
-  else if (state.page === 'projects') html = renderReserved('04', L(UI.projectsTitle));
+  else if (state.page === 'projects') html = renderProjects();
   else if (state.page === 'publications') html = renderPublications();
   else if (state.page === 'materials') html = renderMaterials();
   else if (state.page === 'resume') html = renderResume();

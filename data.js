@@ -44,6 +44,9 @@ const UI = {
   builtWith: 'Set in Garamond. The stone goes back up tomorrow.',
   kindPost: 'Post',
   kindPub: 'Paper',
+  kindProject: 'Project',
+  liveSite: 'Live site',
+  sourceCode: 'Source',
   titles: 'titles',
   draft: 'Draft — the rest of this piece is still in my notebook. Ask me and I will finish it sooner.'
 };
@@ -133,6 +136,17 @@ const PUBS = [
     authors: 'Dinh, T. T. & Duong, V. (2025)',
     title: 'Raman spectroscopy for methanol detection: 1D vs. 2D CNN performance evaluation',
     venue: 'Proceedings of the 9th International Conference on Applied and Engineering Physics (ICAEP-9)'
+  }
+];
+
+const PROJECTS = [
+  {
+    kind: 'Web app', date: '2026-08',
+    title: 'RamanID — Raman spectral identification in the browser',
+    summary: 'Drop a Raman spectrum (.txt / .csv) and get a ranked list of candidate materials with posterior probabilities. Bayesian evidence against a Legendre-polynomial null model, within-class PCA over a reference library of ~16 000 spectra (minerals, organics, polymers; RRUFF, ROD, pharmaceutical sets). The whole pipeline — interpolation, Savitzky–Golay, ALS baseline, L2 normalisation, matching — is ported 1:1 from the Python research code and runs entirely client-side: no server, no upload.',
+    tags: ['Raman', 'Bayesian inference', 'PCA', 'JavaScript'],
+    live: 'https://sisypheanhus.github.io/raman/',
+    source: 'https://github.com/SisypheanHUS/raman'
   }
 ];
 
