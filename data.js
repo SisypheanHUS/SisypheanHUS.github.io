@@ -211,8 +211,8 @@ const MATERIALS = [
 const RESUME = {
   school: 'Vietnam National University — University of Science',
   degree: 'Bachelor’s degree in Applied Mathematics',
-  years: 'Aug 2022 — Mar 2027 (expected)',
-  gpa: 'GPA 2.95 / 4',
+  years: 'Aug 2022 — Sep 2026',
+  gpa: 'GPA 7.3 / 10',
   courses: 'Differential equations, calculus, PDEs, probability theory, mathematical modelling, statistics.',
   roles: [
     {
