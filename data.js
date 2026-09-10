@@ -146,7 +146,8 @@ const POSTS = [
       { img: 'assets/aquarium-2.jpeg', cap: 'Moon jellyfish' },
       { img: 'assets/aquarium.jpeg', cap: '“From now on, we all are circling.”' },
       { h: 'The certificate', id: 'nara-cert' },
-      { img: 'assets/cert.jpeg', cap: 'With Professor Fugo Takasu' }
+      { img: 'assets/cert.jpeg', cap: 'With Professor Fugo Takasu' },
+      { note: 'Sorry, I was 70 kg at the time so I was a bit overframe, lmao.' }
     ]
   }
 ];
