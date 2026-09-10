@@ -102,25 +102,25 @@ const POSTS = [
     ]
   },
   {
-    slug: 'thesis-notebook', date: '2026-09-15', read: '1 min read', tags: ['upcoming', 'thesis', 'math', 'life'],
-    title: 'The thesis notebook',
-    excerpt: 'A running account of writing my graduation thesis — what works, what does not, and everything I would tell myself six months ago.',
-    body: [{ note: 'draft' }]
-  },
-  {
-    slug: 'hcm-physics-summer-school-2026', date: '2026-08-30', read: '1 min read', tags: ['upcoming', 'physics', 'summer school', 'ho chi minh city'],
+    slug: 'hcm-physics-summer-school-2026', date: '2026-08-14', read: '1 min read', tags: ['upcoming', 'physics', 'summer school', 'ho chi minh city'],
     title: 'Ho Chi Minh City, for a physics summer school',
     excerpt: 'A week in Ho Chi Minh City for a physics summer school, August 2026. Full write-up coming.',
     body: [{ note: 'draft' }]
   },
   {
-    slug: 'singapore-iqc-2025', date: '2026-08-24', read: '1 min read', tags: ['upcoming', 'singapore', 'IQC', 'quant'],
+    slug: 'thesis-notebook', date: '2026-06-15', read: '1 min read', tags: ['upcoming', 'thesis', 'math', 'life'],
+    title: 'The thesis notebook',
+    excerpt: 'A running account of writing my graduation thesis — what works, what does not, and everything I would tell myself six months ago.',
+    body: [{ note: 'draft' }]
+  },
+  {
+    slug: 'singapore-iqc-2025', date: '2025-09-24', read: '1 min read', tags: ['upcoming', 'singapore', 'IQC', 'quant'],
     title: 'Singapore, for the IQC 2025 Global Final',
     excerpt: 'Notes from the WorldQuant International Quant Championship 2025 finals — twelve delegates, one from Vietnam. Writing this up soon.',
     body: [{ note: 'draft' }]
   },
   {
-    slug: 'nara', date: '2025-09-02', read: '11 min read', tags: ['nara', 'math biology', 'life'],
+    slug: 'nara', date: '2025-08-04', read: '11 min read', tags: ['nara', 'math biology', 'life'],
     title: 'One month in Nara',
     excerpt: 'Population dynamics in the morning, deer in the afternoon, and a birthday spent watching a film about a girl who does not exist.',
     body: [
