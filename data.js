@@ -80,6 +80,28 @@ const HOME = {
 
 const POSTS = [
   {
+    slug: 'tu-hang-ghe-cuoi-cung', date: '2026-09-10', read: '3 min read', tags: ['life', 'essay', 'tiếng việt'],
+    title: 'Từ hàng ghế cuối cùng',
+    excerpt: 'Hàng ghế cuối cùng, về bản chất, là một hàng ghế không được mấy ai chọn. Ấy vậy mà nó cũng có cho riêng mình vài ưu điểm mà ít người để ý.',
+    body: [
+      { p: 'Hàng ghế cuối cùng, về bản chất, là một hàng ghế không được mấy ai chọn. Họa hoằn lắm, chỉ những kẻ không đặt được vé sớm mới phải ngó tới nó. Trong rạp chiếu phim, nó cách xa màn hình nhất; trên máy bay, nó gần khoang vệ sinh; trên xe giường nằm hay tàu hỏa, nó thường chật chội, xóc nảy và chẳng có lấy bao nhiêu chỗ để mà trở mình.' },
+      { p: 'Ấy vậy mà hàng ghế cuối cũng có cho riêng mình vài ưu điểm mà ít người để ý, có lẽ bởi người ta đã quá chú tâm vào những điều khó chịu của nó mà quên mất rằng cái gì bị bỏ qua cũng thường có một vẻ đẹp riêng.' },
+      { p: 'Một cái nhìn bao quát hơn trong rạp phim, một sự riêng tư ít có ở phương tiện công cộng, nơi vốn chỉ để dành cho những ánh mắt phán xét, những cái nhìn vụn vặt vào cuối ngày, khi người ta vốn chỉ đủ sức nhìn nhau một chút, phán xét nhau một chút, rồi ai về nhà nấy.' },
+      { p: 'Còn với tôi, hàng ghế cuối đôi lúc lại là lựa chọn ưu tiên. Không phải vì tôi có một thú vui nào với những chỗ ngồi tệ nhất, mà đơn giản vì tôi có vài kỷ niệm đặc biệt với nó.' },
+      { p: 'Nếu một ngày nào đó tôi lại ngồi ở cuối một chuyến bay, có lẽ tôi sẽ ngửi thấy mùi khí lạnh đặc trưng của khoang hành khách. Một thứ mùi rất khó tả, nhưng kỳ lạ thay, lại có thể kéo tôi chạm vào những vùng ký ức đã ngủ rất sâu. Có những chuyện trí nhớ đã quên, nhưng cái mũi thì hình như vẫn còn nhớ. Chỉ cần một mùi hương đúng lúc, một căn phòng đã biến mất từ lâu bỗng nhiên trở lại, cùng với những người mà tôi tưởng mình đã thôi nghĩ đến.' },
+      { p: 'Có lẽ cũng vì thế mà tôi không còn thấy phiền khi mình là một hàng ghế cuối.' },
+      { p: 'Tôi ắt hẳn không phải lựa chọn ưu tiên hàng đầu của hầu hết mọi người, nếu xét đến nhiều thứ. Tất nhiên, tôi vẫn có một vài năng lực mà tôi tin mình vượt trội hơn phần đông nhân loại. Cợt nhả chẳng hạn. Một kỹ năng tuy chưa chắc đem lại nhiều lợi ích trong cuộc sống, nhưng ít nhất cũng giúp tôi tồn tại được đến ngày hôm nay.' },
+      { p: 'Âu cũng là như thế.' },
+      { p: 'Tôi luôn nghĩ rằng bất kỳ một ai đó, dù có tự thấy mình xấu xí, khó chịu, hằn học, cọc cằn, đau khổ, uất ức hay đau đớn đến đâu, nếu ta chịu dành đủ thời gian ở cạnh họ, trải qua đủ nhiều thăng trầm cùng họ, rồi sớm muộn ta cũng sẽ thấy được những điểm tinh tế, khác thường mà chỉ riêng họ có.' },
+      { p: 'Việc ta có yêu những điều ấy hay không, dĩ nhiên, vẫn còn tùy vào trải nghiệm của mỗi người.' },
+      { p: 'Nhưng tôi nghĩ, đôi khi chỉ riêng việc ta chịu ngồi xuống đủ lâu để nhận ra cái đẹp trong một ai đó, cũng đã là một việc đáng để sống rồi.' },
+      { p: 'Có lẽ hàng ghế cuối cũng vậy.' },
+      { p: 'Nó vẫn ở đó, chẳng được mấy ai chọn. Chỉ là nếu có một người nào đó chịu ngồi xuống, ngồi đủ lâu, thì biết đâu đến một lúc nào đó, họ sẽ nhận ra: chỗ này thật ra cũng chẳng tệ, nhỉ. Hì.' },
+      { p: 'Tứn' },
+      { img: 'assets/back-row.png', cap: '' }
+    ]
+  },
+  {
     slug: 'thesis-notebook', date: '2026-09-15', read: '1 min read', tags: ['upcoming', 'thesis', 'math', 'life'],
     title: 'The thesis notebook',
     excerpt: 'A running account of writing my graduation thesis — what works, what does not, and everything I would tell myself six months ago.',
@@ -212,7 +234,6 @@ const RESUME = {
   school: 'Vietnam National University — University of Science',
   degree: 'Bachelor’s degree in Applied Mathematics',
   years: 'Aug 2022 — Sep 2026',
-  gpa: 'GPA 7.3 / 10',
   courses: 'Differential equations, calculus, PDEs, probability theory, mathematical modelling, statistics.',
   roles: [
     {
