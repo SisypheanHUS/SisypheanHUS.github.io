@@ -267,7 +267,7 @@ function renderResume() {
     <div>
       <div style="font:800 17px/1.3 var(--font-heading)">${L(RESUME.school)}</div>
       <div style="font:400 14px/1.5 var(--font-body);opacity:.8;margin-top:3px">${L(RESUME.degree)}</div>
-      <div style="font:400 12.5px/1.5 var(--font-body);opacity:.55;margin-top:3px">${L(RESUME.years)} · ${RESUME.gpa}</div>
+      <div style="font:400 12.5px/1.5 var(--font-body);opacity:.55;margin-top:3px">${L(RESUME.years)}</div>
       <div style="font:400 13px/1.55 var(--font-body);opacity:.7;margin-top:8px;max-width:52ch">${L(RESUME.courses)}</div>
     </div>`;
 
