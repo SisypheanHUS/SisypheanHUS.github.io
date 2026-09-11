@@ -89,18 +89,6 @@ const HOME = {
 
 const POSTS = [
   {
-    slug: 're-nhung-van-du-vi', date: '2026-09-11', read: '2 min read', tags: ['life', 'essay', 'tiếng việt'],
-    title: 'Rẻ nhưng vẫn đủ vị',
-    excerpt: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ.',
-    body: [
-      { p: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ — từ đồ ăn, công việc, đến cả những vai trò nhìn phát biết ngay là không ai thực sự cần. Người ta thì giành nhau để trở thành phiên bản tốt nhất của chính họ, còn tôi thì đang loay hoay xem bản thân có nên cố… trở thành cái gì đó tử tế hơn cái hiện tại hay cứ để vậy cho rồi. Nhưng càng nghĩ thì càng thấy câu hỏi ấy trông quan trọng vậy thôi chứ về bản chất thì khá vô nghĩa. Việc hỏi nên làm gì ở tuổi 22 nghe giống kiểu hỏi “nên mua đôi dép màu gì để thay đổi cuộc đời” - tưởng như liên quan , nhưng thực ra chả thay đổi cái gì.' },
-      { p: 'Tôi vẫn chưa có câu trả lời cho cái mớ câu hỏi rối ren kia — và thú thật là tôi cũng không chắc mình có muốn tìm nữa hay không. Nhưng tôi nghĩ, nếu đến lúc đóng nắp đời mình lại, tôi vẫn còn ngồi ăn bún Huế với cái vẻ tận hưởng như thể đó là khám phá ẩm thực của nhân loại, đọc vài cuốn sách ngớ ngẩn đến mức chính tác giả chắc cũng quên họ từng viết chúng, chăm chỉ học những thứ mà tôi biết 200% là không áp dụng được vào đâu, rồi âm thầm thích một người mà khả năng cao là… thích kiểu cho vui, — thì cũng coi như tôi đã sống được như “tôi” hết cái đời này.' },
-      { p: 'Và nghĩ qua nghĩ lại, tôi cũng chẳng có nhiều thứ để khoe. Không thành tựu vĩ đại, không hành trình truyền cảm hứng, không sự nghiệp sáng chói. Chỉ có một đống chuyện lặt vặt, vài sở thích kỳ cục, một chút cố chấp vô lý và vô số lần tự dằn vặt xem mình có nên làm lại cuộc đời từ thứ Hai tuần sau. Nhưng nếu gom hết lại thành một gói, chắc nó vẫn ngang tầm một gói Hảo Hảo tôm chua cay, rẻ nhưng vẫn đủ vị.' },
-      { p: 'Tôi đã là “tôi” trong cả cuộc đời — và với tất cả sự tầm thường dễ thương đó, chắc cũng đủ để gọi là ổn.' },
-      { img: 'assets/mirror-nara.jpeg', cap: '' }
-    ]
-  },
-  {
     slug: 'tu-hang-ghe-cuoi-cung', date: '2026-09-10', read: '3 min read', tags: ['life', 'essay', 'tiếng việt'],
     title: 'Từ hàng ghế cuối cùng',
     excerpt: 'Hàng ghế cuối cùng, về bản chất, là một hàng ghế không được mấy ai chọn. Ấy vậy mà nó cũng có cho riêng mình vài ưu điểm mà ít người để ý.',
@@ -148,6 +136,18 @@ const POSTS = [
     ]
   },
   {
+    slug: 'mi-tom-hao-hao', date: '2025-11-28', read: '2 min read', tags: ['life', 'essay', 'tiếng việt'],
+    title: 'Mì tôm Hảo Hảo',
+    excerpt: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ.',
+    body: [
+      { p: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ — từ đồ ăn, công việc, đến cả những vai trò nhìn phát biết ngay là không ai thực sự cần. Người ta thì giành nhau để trở thành phiên bản tốt nhất của chính họ, còn tôi thì đang loay hoay xem bản thân có nên cố… trở thành cái gì đó tử tế hơn cái hiện tại hay cứ để vậy cho rồi. Nhưng càng nghĩ thì càng thấy câu hỏi ấy trông quan trọng vậy thôi chứ về bản chất thì khá vô nghĩa. Việc hỏi nên làm gì ở tuổi 22 nghe giống kiểu hỏi “nên mua đôi dép màu gì để thay đổi cuộc đời” - tưởng như liên quan , nhưng thực ra chả thay đổi cái gì.' },
+      { p: 'Tôi vẫn chưa có câu trả lời cho cái mớ câu hỏi rối ren kia — và thú thật là tôi cũng không chắc mình có muốn tìm nữa hay không. Nhưng tôi nghĩ, nếu đến lúc đóng nắp đời mình lại, tôi vẫn còn ngồi ăn bún Huế với cái vẻ tận hưởng như thể đó là khám phá ẩm thực của nhân loại, đọc vài cuốn sách ngớ ngẩn đến mức chính tác giả chắc cũng quên họ từng viết chúng, chăm chỉ học những thứ mà tôi biết 200% là không áp dụng được vào đâu, rồi âm thầm thích một người mà khả năng cao là… thích kiểu cho vui, — thì cũng coi như tôi đã sống được như “tôi” hết cái đời này.' },
+      { p: 'Và nghĩ qua nghĩ lại, tôi cũng chẳng có nhiều thứ để khoe. Không thành tựu vĩ đại, không hành trình truyền cảm hứng, không sự nghiệp sáng chói. Chỉ có một đống chuyện lặt vặt, vài sở thích kỳ cục, một chút cố chấp vô lý và vô số lần tự dằn vặt xem mình có nên làm lại cuộc đời từ thứ Hai tuần sau. Nhưng nếu gom hết lại thành một gói, chắc nó vẫn ngang tầm một gói Hảo Hảo tôm chua cay, rẻ nhưng vẫn đủ vị.' },
+      { p: 'Tôi đã là “tôi” trong cả cuộc đời — và với tất cả sự tầm thường dễ thương đó, chắc cũng đủ để gọi là ổn.' },
+      { img: 'assets/mirror-nara.jpeg', cap: '' }
+    ]
+  },
+  {
     slug: 'singapore-iqc-2025', date: '2025-09-24', read: '1 min read', tags: ['upcoming', 'singapore', 'IQC', 'quant'],
     title: 'Singapore, for the IQC 2025 Global Final',
     excerpt: 'Notes from the WorldQuant International Quant Championship 2025 finals — twelve delegates, one from Vietnam. Writing this up soon.',
@@ -169,12 +169,14 @@ const POSTS = [
       { h: 'The deer are not impressed', id: 'nara-deer' },
       { img: 'assets/deer.jpeg', cap: 'Behind the buildings' },
       { pair: [{ img: 'assets/ps-07.jpeg', cap: 'Benches, library, one deer' }, { img: 'assets/canteen.jpeg', cap: 'Canteen lunch, most days' }] },
+      { img: 'assets/nara-teishoku.jpeg', cap: 'Grilled mackerel set, the other days' },
       { h: 'August 4th', id: 'nara-birthday' },
       { pair: [{ img: 'assets/lily-chou-chou.jpeg', cap: 'All About Lily Chou-Chou (1of2001)' }, { img: 'assets/birthday-gift.jpeg', cap: 'Second-hand, 中古, mine' }] },
       { h: 'Walking, mostly alone', id: 'nara-walking' },
       { pair: [{ img: 'assets/ps-06.jpeg', cap: 'Garden, campus edge' }, { img: 'assets/ps-04.jpeg', cap: 'A shrine between apartment blocks' }] },
       { pair: [{ img: 'assets/ps-01.jpeg', cap: 'Vending machines' }, { img: 'assets/ps-02.jpeg', cap: 'Shop window, late light' }] },
       { pair: [{ img: 'assets/ps-00.jpeg', cap: 'Nara station, east exit' }, { img: 'assets/ps-03.jpeg', cap: 'Headlights, out of focus' }] },
+      { pair: [{ img: 'assets/nara-tokae.jpeg', cap: 'Tōkae, lanterns along the pond' }, { img: 'assets/nara-yukata.jpeg', cap: 'Yukata, on the way home' }] },
       { h: 'Weekends: Osaka', id: 'nara-osaka' },
       { pair: [{ img: 'assets/osaka-dai.jpeg', cap: 'Osaka' }, { img: 'assets/masks.jpeg', cap: 'Kitsune masks, souvenir shop' }] },
       { img: 'assets/aquarium-2.jpeg', cap: 'Moon jellyfish' },
