@@ -1,0 +1,35 @@
+Được. Web cá nhân của cậu (sisypheanhus.github.io) không có backend, mọi bài viết nằm trong file data.js ở repo SisypheanHUS.github.io. Đăng bài = thêm một object vào mảng POSTS rồi push lên GitHub, Pages tự deploy sau khoảng một phút.
+
+Các bước
+
+1. Mở data.js, tìm dòng const POSTS = [.
+2. Thêm một object mới ngay sau dấu [ (bài mới nhất để trên cùng), theo mẫu:
+
+{
+  slug: 'ten-bai-khong-dau', date: '2024-10-16', read: '2 min read', tags: ['life', 'english'],
+  title: 'Tên bài',
+  excerpt: 'Một hai câu tóm tắt, hiện ở danh sách blog và trang chủ.',
+  body: [
+    { p: 'Đoạn văn thứ nhất.' },
+    { p: 'Đoạn văn thứ hai.' },
+    { h: 'Tiêu đề phụ', id: 'tieu-de-phu' },
+    { img: 'uploads/anh.jpg', cap: 'Chú thích ảnh' },
+    { p: '-JD-' }
+  ]
+},
+
+3. Lưu file, rồi trong thư mục repo chạy:
+
+git add data.js
+git commit -m "Add post: Tên bài"
+git push
+
+Vài lưu ý
+
+- slug là phần đuôi của link (#/blog/ten-bai-khong-dau), chỉ dùng chữ thường, số và dấu gạch ngang, không trùng bài cũ.
+- date dạng YYYY-MM-DD. Blog, trang chủ và feed tự sắp theo ngày.
+- Mỗi đoạn văn là một { p: '...' }. Trong chuỗi nếu có dấu nháy đơn ' thì viết \' hoặc bọc cả chuỗi bằng nháy kép.
+- Ảnh thì bỏ file vào thư mục uploads/ rồi trỏ đường dẫn như trên. Các khối khác đang hỗ trợ: h (tiêu đề phụ, kèm id để mục lục trỏ tới), math, code, pair (hai ảnh cạnh nhau), note.
+- Xem trước trên máy: chạy python -m http.server 8000 trong thư mục repo rồi mở http://localhost:8000/#/blog/ten-bai-khong-dau.
+
+Bài của cậu ngày 16/10/2024 tớ sẽ đặt tên là "By luck" và tag ['life', 'english']. Cậu có thể chỉnh trực tiếp trong title nếu muốn tên khác.

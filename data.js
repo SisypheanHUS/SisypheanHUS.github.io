@@ -140,18 +140,49 @@ const POSTS = [
     title: 'Mì tôm Hảo Hảo',
     excerpt: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ.',
     body: [
-      { p: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ — từ đồ ăn, công việc, đến cả những vai trò nhìn phát biết ngay là không ai thực sự cần. Người ta thì giành nhau để trở thành phiên bản tốt nhất của chính họ, còn tôi thì đang loay hoay xem bản thân có nên cố… trở thành cái gì đó tử tế hơn cái hiện tại hay cứ để vậy cho rồi. Nhưng càng nghĩ thì càng thấy câu hỏi ấy trông quan trọng vậy thôi chứ về bản chất thì khá vô nghĩa. Việc hỏi nên làm gì ở tuổi 22 nghe giống kiểu hỏi “nên mua đôi dép màu gì để thay đổi cuộc đời” - tưởng như liên quan , nhưng thực ra chả thay đổi cái gì.' },
-      { p: 'Tôi vẫn chưa có câu trả lời cho cái mớ câu hỏi rối ren kia — và thú thật là tôi cũng không chắc mình có muốn tìm nữa hay không. Nhưng tôi nghĩ, nếu đến lúc đóng nắp đời mình lại, tôi vẫn còn ngồi ăn bún Huế với cái vẻ tận hưởng như thể đó là khám phá ẩm thực của nhân loại, đọc vài cuốn sách ngớ ngẩn đến mức chính tác giả chắc cũng quên họ từng viết chúng, chăm chỉ học những thứ mà tôi biết 200% là không áp dụng được vào đâu, rồi âm thầm thích một người mà khả năng cao là… thích kiểu cho vui, — thì cũng coi như tôi đã sống được như “tôi” hết cái đời này.' },
-      { p: 'Và nghĩ qua nghĩ lại, tôi cũng chẳng có nhiều thứ để khoe. Không thành tựu vĩ đại, không hành trình truyền cảm hứng, không sự nghiệp sáng chói. Chỉ có một đống chuyện lặt vặt, vài sở thích kỳ cục, một chút cố chấp vô lý và vô số lần tự dằn vặt xem mình có nên làm lại cuộc đời từ thứ Hai tuần sau. Nhưng nếu gom hết lại thành một gói, chắc nó vẫn ngang tầm một gói Hảo Hảo tôm chua cay, rẻ nhưng vẫn đủ vị.' },
-      { p: 'Tôi đã là “tôi” trong cả cuộc đời — và với tất cả sự tầm thường dễ thương đó, chắc cũng đủ để gọi là ổn.' },
+      { p: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ, từ đồ ăn, công việc, đến cả những vai trò nhìn phát biết ngay là chẳng ai cần. Người ta thì giành nhau để trở thành phiên bản tốt nhất của chính họ, còn tôi thì vẫn luôn loay hoay xem bản thân liệu có nên cố… trở thành cái gì đó tử tế hơn cái hiện tại hay cứ để vậy cho rồi. Nhưng càng nghĩ thì càng thấy câu hỏi ấy trông quan trọng vậy thôi chứ về bản chất thì khá vô nghĩa. Việc hỏi nên làm gì ở tuổi 22 nghe giống kiểu hỏi “nên mua đôi dép màu gì để thay đổi cuộc đời”, về cơ bản là không có ý nghĩa, dù có, cũng chả thay đổi cái gì.' },
+      { p: 'Tôi vẫn chưa có câu trả lời cho cái cái câu hỏi rối ren kia, và thú thật là tôi cũng không chắc mình có muốn tìm nữa hay không. Nhưng tôi nghĩ, nếu đến lúc đóng nắp đời mình lại, tôi vẫn còn ngồi ăn bún bò Huế với cái vẻ như thể đó là khám phá ẩm thực của nhân loại, đọc vài cuốn sách ngớ ngẩn đến mức chính tác giả chắc cũng quên họ từng viết chúng, chăm chỉ học những thứ mà tôi biết 200% là không áp dụng được vào đâu, rồi âm thầm thích một người mà khả năng cao là… thích kiểu cho vui, thì cũng coi như tôi đã sống được như “tôi” hết cái đời này.' },
+      { p: 'Và nghĩ qua nghĩ lại, tôi cũng chẳng có nhiều thứ để khoe. Tôi không có thành tựu gì vĩ đại, cũng không có một hành trình truyền cảm hứng, và tất nhiên là không có một sự nghiệp sáng chói nào cả. Tôi chỉ có một đống chuyện lặt vặt, vài sở thích kỳ cục, một chút cố chấp vô lý và vô số lần tự dằn vặt xem mình có nên làm lại cuộc đời từ thứ Hai tuần sau. Nhưng nếu gom hết lại thành một gói, chắc nó vẫn ngang tầm một gói Hảo Hảo tôm chua cay, rẻ nhưng vẫn đủ vị.' },
+      { p: 'Tôi đã là “tôi” trong cả cuộc đời... và với tất cả sự tầm thường dễ thương đó, chắc cũng đủ để gọi là ổn.' },
       { img: 'assets/mirror-nara.jpeg', cap: '' }
     ]
   },
   {
-    slug: 'singapore-iqc-2025', date: '2025-09-24', read: '1 min read', tags: ['upcoming', 'singapore', 'IQC', 'quant'],
+    slug: 'singapore-iqc-2025', date: '2025-09-24', read: '3 min read', tags: ['singapore', 'IQC', 'quant', 'photos'],
     title: 'Singapore, for the IQC 2025 Global Final',
-    excerpt: 'Notes from the WorldQuant International Quant Championship 2025 finals — twelve delegates, one from Vietnam. Writing this up soon.',
-    body: [{ note: 'draft' }]
+    excerpt: 'The WorldQuant International Quant Championship 2025 Global Final, as one of twelve Research Consultants invited and the only one from Vietnam. In photos, mostly of food.',
+    body: [
+      { p: 'Singapore, end of September 2025, for the WorldQuant International Quant Championship Global Final — invited as one of twelve Research Consultants, the only one from Vietnam. I never wrote the notes I promised, so here are the photos instead. A lot of them are food.' },
+      { img: 'assets/iqc-2025/changi-f1.jpg', cap: 'Changi. The first thing Singapore shows you is a Formula 1 car parked in a whisky shop.' },
+      { img: 'assets/iqc-2025/room.jpg', cap: 'The room at the JW Marriott South Beach. The desk got more use than the bed.' },
+      { img: 'assets/iqc-2025/turndown-note.jpg', cap: 'Turndown note and a chocolate. The chocolate did not survive the photo.' },
+      { img: 'assets/iqc-2025/window-skyline.jpg', cap: 'From the window: the Pan Pacific, the Singapore Flyer, and Marina Bay Sands at the edge of the frame.' },
+      { img: 'assets/iqc-2025/flow18-breakfast.jpg', cap: 'Breakfast at Flow 18, up on the roof, before the first session.' },
+      { pair: [
+        { img: 'assets/iqc-2025/breakfast-bacon.jpg', cap: 'Breakfast, morning one.' },
+        { img: 'assets/iqc-2025/breakfast-pastry.jpg', cap: 'Breakfast, morning two. Same plate, different pastry.' }
+      ] },
+      { img: 'assets/iqc-2025/becoming-titans.jpg', cap: '“Becoming Titans” at the door of the Global Final.' },
+      { img: 'assets/iqc-2025/judges.jpg', cap: 'Meet the judges: Igor Tulchinsky and the WorldQuant leadership.' },
+      { img: 'assets/iqc-2025/research-consultants.jpg', cap: 'The twelve Research Consultants invited to the final. Top row, far right: Hanoi University of Science, Vietnam.' },
+      { img: 'assets/iqc-2025/press-wall.jpg', cap: 'The press wall. Someone asked questions on camera and I answered them in a suit.' },
+      { img: 'assets/iqc-2025/lift-mirror.jpg', cap: 'Lift mirror, same suit, day one.' },
+      { img: 'assets/iqc-2025/delegates.jpg', cap: 'The delegates, between sessions.' },
+      { img: 'assets/iqc-2025/magic-show.jpg', cap: 'Evening entertainment: a card magician, hands ten metres wide on the screen.' },
+      { img: 'assets/iqc-2025/dinner-menu.jpg', cap: 'Welcome dinner menu, Grand Ballroom, 29 September 2025.' },
+      { pair: [
+        { img: 'assets/iqc-2025/dinner-soup.jpg', cap: 'Cannellini white bean soup, under the blue light.' },
+        { img: 'assets/iqc-2025/dinner-soup-table.jpg', cap: 'The same soup, the same blue.' }
+      ] },
+      { img: 'assets/iqc-2025/dinner-scallop.jpg', cap: 'Marinated Hokkaido scallop crudo.' },
+      { img: 'assets/iqc-2025/dinner-chicken.jpg', cap: 'Corn-fed baby spring chicken, potato gratin.' },
+      { img: 'assets/iqc-2025/lunch-mussels.jpg', cap: 'Lunch, another day: mussels in squid ink.' },
+      { img: 'assets/iqc-2025/prawn-curry.jpg', cap: 'Prawn curry with rice.' },
+      { img: 'assets/iqc-2025/fish-rice.jpg', cap: 'Fish, greens, fried rice.' },
+      { img: 'assets/iqc-2025/hotel-restaurant.jpg', cap: 'The hotel restaurant in the morning, before it filled up.' },
+      { img: 'assets/iqc-2025/pho-airport.jpg', cap: 'Last meal before flying home: a bowl of pho, of all things.' },
+      { img: 'assets/iqc-2025/coming-home.jpg', cap: 'Han Meilin’s “Coming Home” at Changi. A fitting name for the last photo.' }
+    ]
   },
   {
     slug: 'nara', date: '2025-08-04', read: '11 min read', tags: ['nara', 'math biology', 'life'],
