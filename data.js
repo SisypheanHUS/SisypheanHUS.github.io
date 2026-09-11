@@ -117,12 +117,6 @@ const POSTS = [
     body: [{ note: 'draft' }]
   },
   {
-    slug: 'thesis-notebook', date: '2026-06-15', read: '1 min read', tags: ['upcoming', 'thesis', 'math', 'life'],
-    title: 'The thesis notebook',
-    excerpt: 'A running account of writing my graduation thesis — what works, what does not, and everything I would tell myself six months ago.',
-    body: [{ note: 'draft' }]
-  },
-  {
     slug: 'van-toc-roi-cua-la-hoa-anh-dao', date: '2025-12-06', read: '1 min read', tags: ['life', 'film', 'tiếng việt'],
     title: 'Vận tốc rơi của lá hoa anh đào',
     excerpt: '5cm/s is not just the falling speed of cherry blossoms, but the speed at which we quietly walked past each other and lost the warmest feelings of love.',
