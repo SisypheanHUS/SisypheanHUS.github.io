@@ -111,10 +111,37 @@ const POSTS = [
     ]
   },
   {
-    slug: 'hcm-physics-summer-school-2026', date: '2026-08-14', read: '1 min read', tags: ['upcoming', 'physics', 'summer school', 'ho chi minh city'],
+    slug: 'hcm-physics-summer-school-2026', date: '2026-08-14', read: '3 min read', tags: ['physics', 'summer school', 'ho chi minh city', 'photos'],
     title: 'Ho Chi Minh City, for a physics summer school',
-    excerpt: 'A week in Ho Chi Minh City for a physics summer school, August 2026. Full write-up coming.',
-    body: [{ note: 'draft' }]
+    excerpt: 'A week at the Summer School in Mathematical Physics 2026, VNUHCM University of Science with VIASM: lectures in the morning, the city in the afternoon. In photos.',
+    body: [
+      { p: 'A week in Ho Chi Minh City, 10–14 August 2026, for the Summer School in Mathematical Physics at VNUHCM University of Science, run with VIASM. Lectures in the morning, the city in the afternoon. Photos and captions only; the notes stayed in the notebook.' },
+      { img: 'assets/hcm-summer-2026/banner.jpg', cap: 'Summer School in Mathematical Physics 2026, at the University of Science. The banner survived the rain.' },
+      { img: 'assets/hcm-summer-2026/lecture-shock-curves.jpg', cap: 'Shock curves: solving the Rankine–Hugoniot equations. Conservation laws, first morning.' },
+      { img: 'assets/hcm-summer-2026/talk-hoshiya.jpg', cap: 'Akitoshi Hoshiya (University of Tokyo) on Schrödinger operators with negative Coulomb-like potentials, joint work with Kouichi Taira. 13 August.' },
+      { img: 'assets/hcm-summer-2026/canteen-cat.jpg', cap: 'The canteen, and its cat, between lectures.' },
+      { pair: [
+        { img: 'assets/hcm-summer-2026/hu-tieu.jpg', cap: 'Prawn noodle soup, the first lunch.' },
+        { img: 'assets/hcm-summer-2026/fish-soup.jpg', cap: 'Fish soup, a bowl of greens on the side.' }
+      ] },
+      { pair: [
+        { img: 'assets/hcm-summer-2026/rice-plate.jpg', cap: 'Rice, an omelette, stewed pork and vegetables.' },
+        { img: 'assets/hcm-summer-2026/noodles-quail-egg.jpg', cap: 'Noodles with pork and a quail egg, on the blue plastic table every canteen in the country owns.' }
+      ] },
+      { img: 'assets/hcm-summer-2026/spring-rolls-dessert.jpg', cap: 'Fried spring rolls and a coconut dessert. Not from the canteen.' },
+      { img: 'assets/hcm-summer-2026/independence-palace.jpg', cap: 'Independence Palace, from the gate, at closing time.' },
+      { img: 'assets/hcm-summer-2026/central-post-office.jpg', cap: 'Inside the Central Post Office: the old map of Saigon and its surroundings, and everyone photographing it.' },
+      { img: 'assets/hcm-summer-2026/war-remnants-museum.jpg', cap: 'The War Remnants Museum.' },
+      { img: 'assets/hcm-summer-2026/museum-beheiren.jpg', cap: 'Beheiren — the Japanese Citizens’ League for Peace in Vietnam — its banner on the wall.' },
+      { img: 'assets/hcm-summer-2026/museum-protests.jpg', cap: 'Photographs of the anti-war movement abroad.' },
+      { img: 'assets/hcm-summer-2026/museum-plain-dealer.jpg', cap: 'The Cleveland Plain Dealer, 1969: the first photographs of Mỹ Lai.' },
+      { img: 'assets/hcm-summer-2026/museum-paris-room.jpg', cap: 'The room on the Paris negotiations.' },
+      { img: 'assets/hcm-summer-2026/museum-longest-negotiation.jpg', cap: '“The longest peace negotiation in history.” Nguyễn Thị Bình’s words above the photographs from Paris.' },
+      { img: 'assets/hcm-summer-2026/museum-ao-dai.jpg', cap: 'An áo dài in a glass case, in the room on the Paris talks.' },
+      { img: 'assets/hcm-summer-2026/museum-mother.jpg', cap: '“Mother”, a sculpture made of bomb and shell fragments, by Nguyễn Hoàng Huy of Tây Ninh.' },
+      { img: 'assets/hcm-summer-2026/museum-bullets.jpg', cap: 'Bullets and shells, arranged like specimens.' },
+      { img: 'assets/hcm-summer-2026/certificate.jpg', cap: 'Certificate of completion, 14 August 2026. Signed, stamped, folded once in a backpack.' }
+    ]
   },
   {
     slug: 'van-toc-roi-cua-la-hoa-anh-dao', date: '2025-12-06', read: '1 min read', tags: ['life', 'film', 'tiếng việt'],
