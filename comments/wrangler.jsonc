@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sisyphean-comments",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sisyphean-comments",
+      "database_id": "e8985cef-9d3c-4308-ad6a-c8ca13f08179"
+    }
+  ]
+  // secrets (wrangler secret put): ADMIN_KEY; optional BOT_TOKEN + CHAT_ID for Telegram notices
+}

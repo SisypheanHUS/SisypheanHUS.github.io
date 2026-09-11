@@ -1,0 +1,13 @@
+{
+  "name": "sisyphean-comments",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "schema": "wrangler d1 execute sisyphean-comments --remote --file schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.129.0"
+  }
+}

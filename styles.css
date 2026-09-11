@@ -144,6 +144,28 @@ a:hover { color: var(--color-accent-700); }
 }
 .chip.on { background: var(--color-accent); color: var(--color-bg); border-color: var(--color-accent); }
 
+/* — comments under a post — */
+.comments { margin-top: 44px; border-top: 5px double var(--color-divider); padding-top: 22px; }
+.comments-title { margin: 0 0 18px; font: 300 26px/1.1 var(--font-heading); letter-spacing: .07em; text-transform: uppercase; }
+.comments-list { list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-direction: column; gap: 18px; }
+.comments-note { font: italic 400 16px/1.5 var(--font-body); opacity: .6; }
+.comment { border-left: 2px solid var(--color-divider); padding-left: 16px; }
+.comment-head { display: flex; gap: 10px; align-items: baseline; font: 400 10.5px/1 var(--font-body); letter-spacing: .12em; text-transform: uppercase; }
+.comment-name { color: var(--color-accent); }
+.comment-date { opacity: .5; }
+.comment-text { margin: 8px 0 0; font: 400 17px/1.6 var(--font-body); white-space: pre-line; text-wrap: pretty; }
+.comments-form { display: flex; flex-direction: column; gap: 14px; max-width: 560px; }
+.comments-field { display: flex; flex-direction: column; gap: 6px; }
+.comments-field span { font: 400 10.5px/1 var(--font-body); letter-spacing: .14em; text-transform: uppercase; opacity: .6; }
+.comments-field input, .comments-field textarea {
+  font: 400 17px/1.5 var(--font-body); color: var(--color-text); background: var(--color-surface);
+  border: 1px solid var(--color-divider); border-radius: 0; padding: 9px 12px; resize: vertical;
+}
+.comments-field input:focus, .comments-field textarea:focus { border-color: var(--color-accent); outline: none; }
+.comments-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.comments-actions { display: flex; align-items: center; gap: 14px; }
+.comments-status { font: 400 12.5px/1.4 var(--font-body); opacity: .7; }
+
 /* — responsive collapse (README: shell must fold to one column below ~900px) — */
 @media (max-width: 900px) {
   #site-header { padding: 12px 16px; gap: 12px; }

@@ -167,6 +167,7 @@ function renderPost(slug) {
       ${blocks}
       <div style="height:2px;background:var(--color-divider);margin:34px 0 16px"></div>
       <div style="display:flex;flex-wrap:wrap;gap:6px">${src.tags.map((t) => `<span class="tag tag-accent">${t}</span>`).join('')}</div>
+      ${renderComments(src.slug)}
     </div>
     <aside class="post-toc" style="position:sticky;top:90px;display:flex;flex-direction:column;gap:9px;border-left:2px solid var(--color-divider);padding-left:18px">
       <span style="font:400 10px/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase;opacity:.5;margin-bottom:2px">${L(UI.contents)}</span>
@@ -458,6 +459,79 @@ function typeset(tries) {
   }
 }
 
+/* ---------- comments (Cloudflare Worker + D1, see comments/) ---------- */
+
+const COMMENTS_API = 'https://sisyphean-comments.darkskyqa.workers.dev';
+
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+function renderComments(slug) {
+  return `
+  <section class="comments" data-post="${slug}">
+    <h3 class="comments-title">${L(UI.commentsTitle)}</h3>
+    <ol class="comments-list"><li class="comments-note">${L(UI.commentsLoading)}</li></ol>
+    <form class="comments-form" autocomplete="off">
+      <label class="comments-field"><span>${L(UI.commentName)}</span><input name="name" maxlength="40" required></label>
+      <label class="comments-field"><span>${L(UI.commentText)}</span><textarea name="text" rows="4" maxlength="2000" required></textarea></label>
+      <label class="comments-trap" aria-hidden="true">Website<input name="website" tabindex="-1"></label>
+      <div class="comments-actions">
+        <button type="submit" class="btn btn-secondary">${L(UI.commentSend)}</button>
+        <span class="comments-status"></span>
+      </div>
+    </form>
+  </section>`;
+}
+
+const commentItem = (c) => `
+  <li class="comment">
+    <div class="comment-head"><span class="comment-name">${esc(c.name)}</span><span class="comment-date">${esc(String(c.at).slice(0, 10))}</span></div>
+    <p class="comment-text">${esc(c.text)}</p>
+  </li>`;
+
+function mountComments() {
+  const box = document.querySelector('.comments[data-post]');
+  if (!box) return;
+  const slug = box.dataset.post;
+  const list = box.querySelector('.comments-list');
+  const form = box.querySelector('.comments-form');
+  const status = box.querySelector('.comments-status');
+  const opened = Date.now();
+  const items = [];
+  const paint = () => {
+    list.innerHTML = items.length ? items.map(commentItem).join('') : `<li class="comments-note">${L(UI.commentsEmpty)}</li>`;
+  };
+
+  fetch(`${COMMENTS_API}/?post=${encodeURIComponent(slug)}`)
+    .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+    .then((d) => { items.push(...d.comments); paint(); })
+    .catch(() => { list.innerHTML = `<li class="comments-note">${L(UI.commentsOffline)}</li>`; });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const f = new FormData(form);
+    const btn = form.querySelector('button');
+    btn.disabled = true;
+    status.textContent = L(UI.commentSending);
+    try {
+      const r = await fetch(`${COMMENTS_API}/`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ post: slug, name: f.get('name'), text: f.get('text'), website: f.get('website'), t: opened })
+      });
+      if (!r.ok) throw new Error(String(r.status));
+      const d = await r.json();
+      items.push(d.comment);
+      paint();
+      form.reset();
+      status.textContent = '';
+    } catch {
+      status.textContent = L(UI.commentFail);
+    } finally {
+      btn.disabled = false;
+    }
+  });
+}
+
 /* ---------- router + render ---------- */
 
 function render() {
@@ -482,6 +556,7 @@ function render() {
 
   view.innerHTML = html;
   typeset();
+  if (state.doc && !searching) mountComments();
 }
 
 function route() {
