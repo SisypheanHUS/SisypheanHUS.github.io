@@ -123,6 +123,18 @@ const POSTS = [
     body: [{ note: 'draft' }]
   },
   {
+    slug: 'van-toc-roi-cua-la-hoa-anh-dao', date: '2025-12-06', read: '1 min read', tags: ['life', 'film', 'tiếng việt'],
+    title: 'Vận tốc rơi của lá hoa anh đào',
+    excerpt: '5cm/s is not just the falling speed of cherry blossoms, but the speed at which we quietly walked past each other and lost the warmest feelings of love.',
+    body: [
+      { img: 'assets/byosoku5-title.jpeg', cap: '秒速5センチメートル — a chain of short stories about their distance.' },
+      { p: '5cm/s is not just the falling speed of cherry blossoms, but the speed at which we quietly walked past each other and lost the warmest feelings of love.' },
+      { pair: [{ img: 'assets/byosoku5-stove.jpeg', cap: 'A waiting room, a stove, a night that would not end' }, { img: 'assets/byosoku5-cherry.jpeg', cap: 'Under the cherry tree' }] },
+      { img: 'assets/byosoku5-sunset.jpeg', cap: 'Where the rocket went' },
+      { p: '“At what speed must I live to be able to see you again?” — Takaki' }
+    ]
+  },
+  {
     slug: 'singapore-iqc-2025', date: '2025-09-24', read: '1 min read', tags: ['upcoming', 'singapore', 'IQC', 'quant'],
     title: 'Singapore, for the IQC 2025 Global Final',
     excerpt: 'Notes from the WorldQuant International Quant Championship 2025 finals — twelve delegates, one from Vietnam. Writing this up soon.',
