@@ -89,6 +89,18 @@ const HOME = {
 
 const POSTS = [
   {
+    slug: 're-nhung-van-du-vi', date: '2026-09-11', read: '2 min read', tags: ['life', 'essay', 'tiếng việt'],
+    title: 'Rẻ nhưng vẫn đủ vị',
+    excerpt: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ.',
+    body: [
+      { p: 'Tôi vẫn luôn tự hỏi xem mình nên làm gì với cái tương lai mịt mù phía trước, nên cố trở thành ai trong cái xã hội đã dư thừa gần như mọi thứ — từ đồ ăn, công việc, đến cả những vai trò nhìn phát biết ngay là không ai thực sự cần. Người ta thì giành nhau để trở thành phiên bản tốt nhất của chính họ, còn tôi thì đang loay hoay xem bản thân có nên cố… trở thành cái gì đó tử tế hơn cái hiện tại hay cứ để vậy cho rồi. Nhưng càng nghĩ thì càng thấy câu hỏi ấy trông quan trọng vậy thôi chứ về bản chất thì khá vô nghĩa. Việc hỏi nên làm gì ở tuổi 22 nghe giống kiểu hỏi “nên mua đôi dép màu gì để thay đổi cuộc đời” - tưởng như liên quan , nhưng thực ra chả thay đổi cái gì.' },
+      { p: 'Tôi vẫn chưa có câu trả lời cho cái mớ câu hỏi rối ren kia — và thú thật là tôi cũng không chắc mình có muốn tìm nữa hay không. Nhưng tôi nghĩ, nếu đến lúc đóng nắp đời mình lại, tôi vẫn còn ngồi ăn bún Huế với cái vẻ tận hưởng như thể đó là khám phá ẩm thực của nhân loại, đọc vài cuốn sách ngớ ngẩn đến mức chính tác giả chắc cũng quên họ từng viết chúng, chăm chỉ học những thứ mà tôi biết 200% là không áp dụng được vào đâu, rồi âm thầm thích một người mà khả năng cao là… thích kiểu cho vui, — thì cũng coi như tôi đã sống được như “tôi” hết cái đời này.' },
+      { p: 'Và nghĩ qua nghĩ lại, tôi cũng chẳng có nhiều thứ để khoe. Không thành tựu vĩ đại, không hành trình truyền cảm hứng, không sự nghiệp sáng chói. Chỉ có một đống chuyện lặt vặt, vài sở thích kỳ cục, một chút cố chấp vô lý và vô số lần tự dằn vặt xem mình có nên làm lại cuộc đời từ thứ Hai tuần sau. Nhưng nếu gom hết lại thành một gói, chắc nó vẫn ngang tầm một gói Hảo Hảo tôm chua cay, rẻ nhưng vẫn đủ vị.' },
+      { p: 'Tôi đã là “tôi” trong cả cuộc đời — và với tất cả sự tầm thường dễ thương đó, chắc cũng đủ để gọi là ổn.' },
+      { img: 'assets/mirror-nara.jpeg', cap: '' }
+    ]
+  },
+  {
     slug: 'tu-hang-ghe-cuoi-cung', date: '2026-09-10', read: '3 min read', tags: ['life', 'essay', 'tiếng việt'],
     title: 'Từ hàng ghế cuối cùng',
     excerpt: 'Hàng ghế cuối cùng, về bản chất, là một hàng ghế không được mấy ai chọn. Ấy vậy mà nó cũng có cho riêng mình vài ưu điểm mà ít người để ý.',
@@ -129,6 +141,7 @@ const POSTS = [
     body: [
       { img: 'assets/byosoku5-title.jpeg', cap: '秒速5センチメートル — a chain of short stories about their distance.' },
       { p: '5cm/s is not just the falling speed of cherry blossoms, but the speed at which we quietly walked past each other and lost the warmest feelings of love.' },
+      { img: 'assets/byosoku5-park.jpeg', cap: '“This place is not a park, it is more like a small forest.”' },
       { pair: [{ img: 'assets/byosoku5-stove.jpeg', cap: 'A waiting room, a stove, a night that would not end' }, { img: 'assets/byosoku5-cherry.jpeg', cap: 'Under the cherry tree' }] },
       { img: 'assets/byosoku5-sunset.jpeg', cap: 'Where the rocket went' },
       { p: '“At what speed must I live to be able to see you again?” — Takaki' }
