@@ -158,6 +158,19 @@ const POSTS = [
       { img: 'assets/cert.jpeg', cap: 'With Professor Fugo Takasu' },
       { note: 'Sorry, I was 70 kg at the time so I was a bit overframe, lmao.' }
     ]
+  },
+  {
+    slug: 'all-by-luck', date: '2024-10-16', read: '1 min read', tags: ['life', 'diary'],
+    title: 'All by luck',
+    excerpt: 'I did realize this for a while. But dealing with it is not that easy. Sometime it fades away for a moment, then it came back.',
+    body: [
+      { p: 'I did realize this for a while. But dealing with it is not that easy. Sometime it fades away for a moment, then it came back. Feeling you aren\'t goood enough, you are here, is all by luck.' },
+      { p: 'I don\'t understand why. I do know for 100 percent that i got all these thing by myself, I have tremendous amounts of sleepless night, I work from 3 o\' clock for a competition till late night and win it. Though I still feel like i won it by luck. No amount of money can make me feel safe. I know why I felt like this, I just scared like someday this doesn\'t work anymore and I will become useless. Sitting down, I\'ve dealing with so much thing lately that I didn\'t even have time to think, or even care about anything else. I\'m tired, but not that tired, I\'m tired enough to dont want to do anything.' },
+      { p: 'It\'s not like I need someone talk to me and said "you\'re worthy, you are not a piece of trash, you may become successful oneday".' },
+      { p: 'I\'m the only one who can solve the problem myself.' },
+      { p: 'I hope I can surpass this feeling soon. Some moment I just wanna die.' },
+      { p: '-JD-' }
+    ]
   }
 ];
 
