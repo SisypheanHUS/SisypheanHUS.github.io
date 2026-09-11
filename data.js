@@ -122,7 +122,7 @@ const POSTS = [
       { img: 'assets/hcm-summer-2026/canteen-cat.jpg', cap: 'The canteen, and its cat, between lectures.' },
       { pair: [
         { img: 'assets/hcm-summer-2026/hu-tieu.jpg', cap: 'Prawn noodle soup, the first lunch.' },
-        { img: 'assets/hcm-summer-2026/fish-soup.jpg', cap: 'Fish soup, a bowl of greens on the side.' }
+        { img: 'assets/hcm-summer-2026/fish-soup.jpg', cap: 'Prawn soup again, this time with herbs and a bowl of greens on the side.' }
       ] },
       { pair: [
         { img: 'assets/hcm-summer-2026/rice-plate.jpg', cap: 'Rice, an omelette, stewed pork and vegetables.' },
