@@ -333,84 +333,65 @@ const MATERIALS = [
 
 const RESUME = {
   school: 'Vietnam National University — University of Science',
-  degree: 'Bachelor’s degree in Applied Mathematics',
-  years: 'Aug 2022 — Sep 2026',
-  courses: 'Differential equations, calculus, PDEs, probability theory, mathematical modelling, statistics.',
+  degree: 'Bachelor of Science in Applied Mathematics · GPA 7.3/10',
+  years: 'Aug 2022 — Sep 2026 · Hanoi, Vietnam',
+  courses: 'Main courses: differential equations, calculus, PDEs, probability theory, mathematical modelling, statistics. Thesis: Raman Spectroscopy for Methanol Detection, advised by Dr. Vu Duong (Institute of Physics, VAST).',
   roles: [
     {
-      role: 'Research Consultant', org: 'WorldQuant · Contract',
-      place: 'Hanoi, Vietnam · Remote', when: 'Apr 2024 — Present · 2 yrs 5 mos',
-      quip: 'Trying to predict the unpredictable while pretending it’s science.',
+      role: 'AI Engineer OJT', org: 'VinSmart Future',
+      place: 'Hanoi, Vietnam', when: 'Apr — Jul 2026',
       bullets: [
-        'Built mathematical models for price movement prediction in Fast Expression Language and Python; submitted 1,800+ alphas across global markets.',
-        '5-time Grandmaster (top 2%) and 2-time Master (top 8%) in the Genius Program, out of 10,000+ consultants.',
-        'Sole delegate from Vietnam — one of 12 selected globally — at the International Quant Championship 2025 finals in Singapore.'
+        'Studying and evaluating machine learning approaches for fraud detection, including XGBoost and Random Forest, using the PaySim dataset.'
       ]
     },
     {
-      role: 'Specialist', org: 'VinsmartFuture · Full-time',
-      place: 'Hanoi Capital Region · On-site', when: 'Jul 2026 · 1 mo',
-      quip: 'Ended due to personal reason', bullets: []
-    },
-    {
-      role: 'Intern', org: 'VinsmartFuture · Full-time',
-      place: 'Hanoi Capital Region · On-site', when: 'Apr 2026 — Jun 2026 · 3 mos',
-      quip: 'Apr–May : VinUni. June : VinSmartFuture', bullets: []
-    },
-    {
-      role: 'Research Internship', org: 'Vietnam Academy of Science and Technology · Internship',
-      place: 'Ba Đình district, Hanoi, Vietnam · On-site', when: 'Jul 2025 — Jun 2026 · 1 yr',
-      quip: 'If you’re reading this, professor. thank you for guiding a confused particle.',
-      bullets: [
-        'Institutions of Physics. Supervisor: Dr Vu Duong.',
-        'First two months: a deep learning approach to quantifying methanol concentration in ethanol–methanol mixtures from Raman spectroscopy; first author of a paper in the ICAEP-9 (2025) proceedings.',
-        'The rest of the year: general research on Raman spectroscopy with deep learning and machine learning.'
-      ]
-    },
-    {
-      role: 'Intern AI Engineer', org: 'Kaopiz · Part-time',
-      place: 'Hanoi Capital Region · On-site', when: 'Feb 2026 — Mar 2026 · 2 mos',
-      quip: 'Not what I expected.',
-      bullets: [
-        'Explored OpenClaw to automate routine tasks such as Jira logwork, data crawling, and multi-source aggregation.',
-        'Evaluated Mem0 by assessing its strengths, limitations, and use cases, comparing it with other chatbot memory approaches like vector databases, retrieval-augmented generation, and long-term memory layers.'
-      ]
-    },
-    {
-      role: 'wanderer of thoughts', org: 'Under a good tree. · Full-time',
-      place: 'On-site', when: 'Dec 2025 — Mar 2026 · 4 mos',
-      quip: 'I’m farming wisdom and try to be able to see math as a painting.',
-      bullets: []
-    },
-    {
-      role: 'Summer Research Fellow', org: 'Vietnam Institute for Advanced Study in Mathematics · Internship',
-      place: 'Hanoi Capital Region · On-site', when: 'Aug 2025 — Nov 2025 · 4 mos',
+      role: 'Summer Research Student', org: 'Vietnam Institute for Advanced Study in Mathematics',
+      place: 'Hanoi, Vietnam', when: 'Aug — Nov 2025',
       quip: 'great experience. Never coming back, I promise.',
       bullets: [
-        'VIASM Summer School Research Experience for Undergraduate.',
-        'Epidemic modelling and actuarial science under Dr. Hoang Manh Tuan.'
+        'Research in epidemic modeling and actuarial science under the supervision of Dr. Hoang Manh Tuan.',
+        'Contributor of a manuscript on a modified SIS model for health insurance pricing.'
       ]
     },
     {
-      role: 'Summer Program on Mathematical Modeling', org: '（国法）奈良女子大学 · Full-time',
-      place: 'Nara, Japan · On-site', when: 'Aug 2025 · 1 mo',
+      role: 'Summer Research Student', org: 'Group of Mathematical Biology, Nara Women’s University',
+      place: 'Nara, Japan', when: 'Aug 2025',
       bullets: [
-        'Organized by TAKASU Fugo (NWU, Japan) with co-organizers Fajar Adi Kusumo and Nanang Susyanto (UGM, Indonesia).',
-        'Participated in an intensive English-conducted summer program on mathematical modeling of population dynamics, including ODEs, stochastic models, and Python-based simulations.'
+        'Short summer research program on dynamical systems in population biology.',
+        'Developed and presented a SIR modeling project in R.'
+      ]
+    },
+    {
+      role: 'Research Intern', org: 'Institute of Physics, Vietnam Academy of Science and Technology',
+      place: 'Hanoi, Vietnam', when: 'Jul 2025 — Present',
+      quip: 'If you’re reading this, professor. thank you for guiding a confused particle.',
+      bullets: [
+        'Proposed a deep learning-based approach for quantifying methanol concentration in ethanol–methanol mixtures using Raman spectroscopy.',
+        'Proposed and evaluated 1D and 2D CNN-based methods for the classification of methanol and ethanol from Raman spectral data.',
+        'First author of a paper published in the proceedings of ICAEP-9 (2025).'
+      ]
+    },
+    {
+      role: 'Research Consultant', org: 'WorldQuant BRAIN',
+      place: 'Hanoi · Remote', when: 'Apr 2024 — Present',
+      quip: 'Trying to predict the unpredictable while pretending it’s science.',
+      bullets: [
+        'Submitted 1,800+ alphas across global equity markets using Fast Expression Language and Python; built automated pipelines for template mining, correlation-based selection, and Power Pool allocation.',
+        '5-time Grandmaster (top 2%) and 3-time Master (top 8%) in the Genius Program, out of 10,000+ consultants.',
+        'Exclusive delegate from Vietnam — among 12 selected globally — for the IQC 2025 finals in Singapore.'
       ]
     }
   ],
   skills: [
-    { group: 'Languages', items: ['Python', 'R', 'Fast Expression Language', 'LaTeX'] },
-    { group: 'Libraries', items: ['TensorFlow', 'PyTorch', 'scikit-learn', 'NumPy', 'Pandas'] },
+    { group: 'Programming languages', items: ['Python', 'R', 'Fast Expression Language', 'LaTeX'] },
+    { group: 'Libraries & frameworks', items: ['TensorFlow', 'PyTorch', 'scikit-learn', 'NumPy', 'Pandas'] },
     { group: 'Knowledge areas', items: [
-      'Portfolio construction',
-      'Factor analysis', 'Machine learning',
-      'Deep learning'
+      'Portfolio construction', 'Backtesting', 'Factor analysis',
+      'Machine learning', 'Deep learning', 'Feature engineering', 'Model validation'
     ] },
-    { group: 'Language', items: [
-      'English — TOEIC 890 (L/R 460/430)',
-      'Japanese — JLPT N5'
+    { group: 'Languages', items: [
+      'Vietnamese — Native',
+      'English — TOEIC 890 (L/R 460/430)'
     ] }
   ],
   awards: [

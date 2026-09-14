@@ -303,7 +303,7 @@ function renderResume() {
     </div>`;
 
   const dlBtn = `
-    <a href="uploads/Dinh_Thai_Tuan_Resume.pdf" target="_blank" class="btn btn-primary" style="margin-left:auto">
+    <a href="uploads/Curriculum_Vitae.pdf" target="_blank" class="btn btn-primary" style="margin-left:auto">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M4 21h16"></path></svg>
       ${L(UI.downloadPdf)}
     </a>`;
