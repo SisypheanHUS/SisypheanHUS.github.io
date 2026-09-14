@@ -22,7 +22,7 @@ const UI = {
   activitiesTitle: 'Academic activities',
   materialsTitle: 'Materials',
   canonTitle: 'The Western Gappy Canon',
-  materialsIntro: 'I am a fan of Gappy, and I think this list of his is good, so I keep a copy of it here on my own blog. The picks and the short note under each title are his words, not mine.',
+  materialsIntro: 'I am a fan of Gappy, and I think this list of his is good, so I keep a copy of it here on my own blog. The picks and the short note under each title are his words, not mine. Except the last group, My own picks: those three are my recommendations.',
   emptyKicker: 'Reserved',
   emptyTitle: 'Nothing here yet.',
   emptyBody: 'This section is held open. Send me what belongs here and I will set it in.',
@@ -327,6 +327,14 @@ const MATERIALS = [
       { ref: 'M. Isichenko', title: 'Quantitative Portfolio Management', formats: 'hard/kindle', note: 'This is the best available book on quantitative investing written by an actual practitioner. It’s scattershot and in parts generic, but still worth reading.' },
       { ref: 'J. Danielsson', title: 'The Illusion of Control', formats: 'various formats', note: 'The best (most intelligent, well written) book on broad, macro-level risk management available. Very accessible, just a bit too long.' },
       { ref: 'G. Connor, L. R. Goldberg, R. A. Korajczyk', title: 'Portfolio Risk Analysis', formats: 'hardcover/etextbook', note: 'Connor worked as a consultant to Barra, and Goldberg worked at Barra for many years. This book is clear and a good introduction to factor models' }
+    ]
+  },
+  {
+    name: 'My own picks',
+    items: [
+      { ref: 'G. A. Paleologo', title: 'Advanced Portfolio Management: A Quant’s Guide for Fundamental Investors', formats: 'hardcover/kindle', note: 'Gappy’s first book. Factor models, risk and position sizing, written for fundamental investors who pick stocks rather than build models.' },
+      { ref: 'G. A. Paleologo', title: 'The Elements of Quantitative Investing', formats: 'hardcover/kindle', note: 'Gappy’s second book, the systematic side: factor models, portfolio construction and backtesting for quantitative investors.' },
+      { ref: 'G. Coqueret, T. Guida', title: 'Machine Learning for Factor Investing', formats: 'hardcover/kindle, free online version', note: 'Machine learning applied to factor investing end to end: data, features, trees, neural networks and backtests, with code in R (and a Python edition).' }
     ]
   }
 ];
