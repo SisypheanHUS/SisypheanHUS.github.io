@@ -11,6 +11,9 @@ const UI = {
   readWriting: 'Read the blog',
   seeResume: 'Resume',
   nowTitle: 'What I am doing now',
+  readingTitle: 'Current reading',
+  readingNow: 'Reading',
+  upNext: 'Up next',
   latestTitle: 'Latest writing',
   all: 'All',
   back: 'Back',
@@ -84,6 +87,17 @@ const HOME = {
     { role: 'Research Consultant', org: 'WorldQuant BRAIN', what: 'I use techniques such as pre-measured signal pooling (alpha pool), correlation-penalized scoring with hard prod-corr gates, bandit-style weighted sampling with decay (Efraimidis–Spirakis), closed-form local optimization instead of black-box search, and out-of-sample-only validation for capital allocation.' },
     { role: 'Research Internship', org: 'Vietnam Academy of Science and Technology · Internship', what: 'Institutions of Physics. Supervisor: Dr Vu Duong.', quip: 'If you’re reading this, professor. thank you for guiding a confused particle.' },
     { role: 'wanderer of thoughts', org: 'Under a good tree. · Full-time', what: 'I’m farming wisdom and try to be able to see math as a painting.' }
+  ],
+  reading: [
+    { ref: 'Trefethen & Bau', title: 'Numerical Linear Algebra' },
+    { ref: 'Boyd & Vandenberghe', title: 'Convex Optimization' },
+    { ref: 'Williams', title: 'Probability with Martingales' },
+    { ref: 'Wasserman', title: 'All of Statistics' },
+    { ref: 'Murphy', title: 'Probabilistic Machine Learning', now: true },
+    { ref: 'Cochrane', title: 'Asset Pricing' },
+    { ref: 'Paleologo', title: 'The Elements of Quantitative Investing' },
+    { ref: 'Xinfeng Zhou', title: 'A Practical Guide to Quantitative Finance Interviews (Green Book)' },
+    { ref: 'Timothy Crack', title: 'Heard on the Street' }
   ]
 };
 

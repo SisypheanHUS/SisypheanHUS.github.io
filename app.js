@@ -49,6 +49,15 @@ function renderHome() {
       ${n.quip ? `<div style="font:400 italic 12.5px/1.55 var(--font-body);opacity:.68;margin-top:6px">${n.quip}</div>` : ''}
     </div>`).join('');
 
+  const readingRows = HOME.reading.map((b) => `
+    <div style="display:flex;align-items:baseline;gap:12px;padding:12px 0;border-bottom:1px solid var(--color-divider)">
+      <div>
+        <div style="font:800 15px/1.3 var(--font-heading)">${b.title}</div>
+        <div style="font:400 12.5px/1.5 var(--font-body);color:var(--color-accent-700);margin-top:3px">${b.ref}</div>
+      </div>
+      <span style="margin-left:auto;flex:none;font:400 10px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;${b.now ? 'color:var(--color-accent)' : 'opacity:.5'}">${L(b.now ? UI.readingNow : UI.upNext)}</span>
+    </div>`).join('');
+
   const latestRows = POSTS.map((p) => `
     <a href="#/blog/${p.slug}" class="plain-link hover-tint" data-from="home" style="display:block;padding:16px 0;border-bottom:1px solid var(--color-divider)">
       <div style="margin-bottom:6px">${postRowMeta(p)}</div>
@@ -86,6 +95,10 @@ function renderHome() {
           <span style="margin-left:auto;font:400 10px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;opacity:.5">2026</span>
         </div>
         ${nowRows}
+        <div style="display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--color-divider);padding-bottom:10px;margin:44px 0 6px">
+          <h3 style="margin:0;font-weight:400;font-size:25px;letter-spacing:.11em;text-transform:uppercase;font-family:var(--font-heading)">${L(UI.readingTitle)}</h3>
+        </div>
+        ${readingRows}
       </section>
       <section>
         <div style="display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--color-divider);padding-bottom:10px;margin-bottom:6px">
