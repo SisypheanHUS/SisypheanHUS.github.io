@@ -183,6 +183,19 @@ const POSTS = [
     ]
   },
   {
+    slug: 'icarus', date: '2025-11-16', read: '1 min read', tags: ['life', 'diary'],
+    title: 'Icarus',
+    excerpt: 'I want to know what\'s inside Icarus\'s head when he starts to fall off the sky.',
+    body: [
+      { p: 'I want to know what\'s inside Icarus\'s head when he starts to fall off the sky. Does he regret it, or does he just feel disappointed cause he can\'t reach just a little higher?' },
+      { p: 'That\'s question I think most human should ask before they decide to do something big, to pursue something that matters, to them.' },
+      { p: 'It\'s not about the worthiness of the subject, like does it important, does it consider as a "higher level of mind"? That\'s all b.s to me.' },
+      { p: 'In the end, people should just care about themself and their own answer to that question.' },
+      { p: 'At least, that\'s what inside my head. So do I 50 years later.' },
+      { img: 'assets/tromso-reading-room.png', cap: '' }
+    ]
+  },
+  {
     slug: 'singapore-iqc-2025', date: '2025-09-24', read: '3 min read', tags: ['singapore', 'IQC', 'quant', 'photos'],
     title: 'Singapore, for the IQC 2025 Global Final',
     excerpt: 'The WorldQuant International Quant Championship 2025 Global Final, as one of twelve Research Consultants invited and the only one from Vietnam. In photos, mostly of food.',
