@@ -286,6 +286,16 @@ const POSTS = [
       { p: 'I hope I can surpass this feeling soon. Some moment I just wanna die.' },
       { p: '-JD-' }
     ]
+  },
+  {
+    slug: 'tram-dau-phuong', date: '2024-04-10', read: '1 min read', tags: ['poetry', 'tiếng việt'],
+    title: 'Trâm Đầu Phượng',
+    excerpt: 'Tay xinh gửi rượu hoàng đằng, / Đầy thành xuân sắc, bền tường liễu xanh.',
+    body: [
+      { p: 'Tay xinh gửi rượu hoàng đằng,<br>Đầy thành xuân sắc, bền tường liễu xanh.<br>Gió đông ác nghiệt đã đành,<br>Ai hay bạc cả ân tình vì đâu.<br>Lòng riêng đeo nặng mối sầu,<br>Bao năm xa cách đơn cô một mình.<br>Sai! Sai! Sai! Xót xa tình.<br>Người ơi, gầy võ dáng hình vì xuân<br>Lụa hồng thấm ngấn lệ hoen,<br>Hoa đào rơi rụng lầu xuân vắng người.<br>Minh sơn thệ hải bao lời,<br>Mà phong thư gấm gởi người được đâu.<br>Thôi đừng phiền lụy chi nhau.' },
+      { p: '- Lục Du - Trâm Đầu Phượng' },
+      { img: 'assets/garden-of-words.jpg', cap: '言の葉の庭 — The Garden of Words' }
+    ]
   }
 ];
 
