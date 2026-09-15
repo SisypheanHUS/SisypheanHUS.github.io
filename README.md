@@ -14,6 +14,7 @@ Bilingual (EN/VI) personal website of Dinh Thai Tuan, served at
 | Math | KaTeX 0.16.9 via CDN |
 | Fonts | Cormorant Garamond + EB Garamond (Google Fonts, Vietnamese subset) |
 | Comments | `comments/` — Cloudflare Worker + D1, no accounts (see below) |
+| Flowers | `flowers.js` scatters photographs from `assets/flowers/` (WebP cutouts, credits in `assets/flowers/CREDITS.md`) |
 
 ## Editing content
 

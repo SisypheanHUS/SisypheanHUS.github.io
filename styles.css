@@ -130,17 +130,19 @@ a:hover { color: var(--color-accent-700); }
 .rail-contacts { display: flex; flex-direction: column; gap: 7px; padding-right: 26px; font: 400 11.5px/1.5 var(--font-body); }
 .quiet-link { text-decoration: none; color: var(--color-text); opacity: .7; }
 .quiet-link:hover { opacity: 1; color: var(--color-accent); }
-#view { padding: 44px 48px 90px; min-width: 0; position: relative; }
+#view { padding: 44px 48px 90px; min-width: 0; position: relative; z-index: 0; }
 
-/* — painted blossom branches (flowers.js) — */
-.hero-branch {
-  position: absolute; top: 0; right: 0; width: min(46vw, 600px); pointer-events: none;
-  -webkit-mask-image: linear-gradient(to right, transparent, #000 38%);
-  mask-image: linear-gradient(to right, transparent, #000 38%);
+/* — blossom photographs (flowers.js, assets/flowers) — */
+/* The garden fills #view behind its text (#view is a stacking context, so z-index -1 stays inside it). */
+.garden { position: absolute; inset: 0; overflow: hidden; pointer-events: none; z-index: -1; }
+.bloom {
+  position: absolute; width: var(--w); height: auto; opacity: var(--o, .85);
+  transform: rotate(var(--r, 0deg)) scaleX(var(--f, 1)); filter: brightness(.92) saturate(.85);
 }
-.hero-branch svg, .rail-sprig svg, .footer-sprig svg { display: block; width: 100%; height: auto; }
-.rail-sprig { width: 176px; margin: 34px 26px 0 -8px; opacity: .85; }
-.footer-sprig { width: 84px; align-self: center; opacity: .8; }
+.bloom-deep { filter: blur(2px) brightness(.7) saturate(.7); }
+.rail-sprig { position: relative; height: 170px; margin: 30px 26px 0 -8px; }
+.footer-sprig { display: flex; align-items: center; gap: 4px; align-self: center; }
+.footer-sprig .bloom { position: static; }
 
 /* — footer — */
 #site-footer {
@@ -197,7 +199,8 @@ a:hover { color: var(--color-accent-700); }
   }
   .navlink { border-bottom: 0; padding: 6px 0; }
   .rail-rule, .rail-sprig { display: none; }
-  .hero-branch { width: 72vw; opacity: .4; }
+  .bloom { width: calc(var(--w) * .5); opacity: calc(var(--o, .85) * .6); }
+  .bloom-deep { display: none; }
   .rail-contacts { flex-direction: row; flex-wrap: wrap; gap: 4px 14px; width: 100%; padding: 6px 0 0; }
   #view { padding: 28px 18px 60px; }
   .post-grid { grid-template-columns: minmax(0, 1fr) !important; }

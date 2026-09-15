@@ -71,7 +71,6 @@ function renderHome() {
     </div>`).join('');
 
   return `
-  <div class="hero-branch">${FLOWERS.hero}</div>
   <div style="max-width:1000px;position:relative">
     <p style="font:400 11px/1 var(--font-body);letter-spacing:.22em;text-transform:uppercase;color:var(--color-accent);margin:0 0 22px">${L(UI.homeKicker)}</p>
     <h1 style="margin:0 0 26px;font-weight:300;font-size:clamp(40px,5.6vw,80px);line-height:1.02;letter-spacing:.02em;text-transform:uppercase;max-width:17ch;font-family:var(--font-heading)">${L(HOME.headline)}</h1>
@@ -424,8 +423,6 @@ function renderSearch() {
 
 /* ---------- chrome ---------- */
 
-const RAIL_SPRIG = FLOWERS.sprig('paint-rail'); // painted once; the rail re-renders on every keystroke
-
 function renderRail() {
   const searching = state.query.trim().length > 1;
   const links = NAV.map((n) => `
@@ -442,13 +439,14 @@ function renderRail() {
       <a href="https://www.linkedin.com/in/SisypheanHUS" target="_blank" rel="noopener" class="quiet-link">LinkedIn / SisypheanHUS</a>
       <span style="opacity:.5">Hanoi, Vietnam</span>
     </div>
-    <div class="rail-sprig">${RAIL_SPRIG}</div>`;
+    <div class="rail-sprig">${FLOWERS.rail}</div>`;
 }
 
 function renderChrome() {
   document.getElementById('brand-role').textContent = L(UI.role);
   document.getElementById('search-input').placeholder = L(UI.search);
   document.getElementById('footer-motto').textContent = L(UI.builtWith);
+  document.getElementById('footer-credits').textContent = L(UI.flowerCredits);
 }
 
 /* ---------- math ---------- */
@@ -565,7 +563,8 @@ function render() {
   else if (state.page === 'feed') html = renderFeed();
   else html = renderHome();
 
-  view.innerHTML = html;
+  // Every page opens on its own seeded scatter of blossoms behind the text.
+  view.innerHTML = FLOWERS.garden(searching ? 'search' : state.doc || state.page) + html;
   typeset();
   if (state.doc && !searching) mountComments();
 }
@@ -630,5 +629,5 @@ document.addEventListener('click', (e) => {
 });
 
 window.addEventListener('hashchange', route);
-document.getElementById('footer-sprig').innerHTML = FLOWERS.sprig('paint-footer');
+document.getElementById('footer-sprig').innerHTML = FLOWERS.footer;
 route();

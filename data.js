@@ -44,6 +44,7 @@ const UI = {
   results: 'results',
   noResults: 'Nothing matched. Try “alpha”, “SIS”, “Raman” or “PDE”.',
   builtWith: 'Set in Garamond. The stone goes back up tomorrow.',
+  flowerCredits: 'Blossom photographs',
   commentsTitle: 'Comments',
   commentsEmpty: 'No comments yet. Say something.',
   commentsLoading: 'Loading…',
