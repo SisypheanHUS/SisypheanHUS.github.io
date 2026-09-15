@@ -450,13 +450,17 @@ const POSTS = [
   {
     slug: 'khong-con-nhung-co-don', date: '2022-10-20', read: '2 min read', tags: ['life', 'diary', 'tiếng việt'],
     title: 'Chúc thế giới những 20 tháng 10 sau sẽ không còn những "cô đơn"',
-    excerpt: 'Giá mà mỗi một người,có một ngày nghỉ cho riêng mình.',
+    excerpt: 'Giá mà mỗi một người có một ngày nghỉ cho riêng mình.',
     body: [
-      { p: 'Giá mà mỗi một người,có một ngày nghỉ cho riêng mình,việc tất cả,có chung 1 dịp đặc biệt,nên cứ vào những dịp ấy,mọi người cứ phải chen chúc nhau,chờ đợi,để được tận hưởng cái hạnh phúc lẽ ra phải có,chứ không như được ban ơn như vậy.' },
-      { p: 'Một mặt khác,việc tất cả mọi người cùng có chung những dịp nghỉ ngơi như này,đấy là việc người cô đơn,người không hạnh phúc,người đang hạnh phúc cùng nhau có một dịp nghỉ ngơi,lúc này "Người cô đơn sẽ càng cô đơn,người không hạnh phúc sẽ càng không hạnh phúc,và người hạnh phúc,tôi tin,cũng không muốn nhìn thấy cảnh này."' },
-      { p: 'Đương nhiên,xã hội không vận hành theo cách tôi muốn được,một lần nữa,tôi ghét mạng xã hội,mọi người,ai cũng sẽ có lúc buồn,khi dùng mạng xã hội.' },
-      { p: 'Bạn biết đấy,chúng ta,luôn luôn chỉ đăng tải những khung cảnh hạnh phúc,lên mxh. Điều đó vô hình chung tạo ra ảo tưởng cho những người xung quanh,rằng cái người đấy,người kia sao lại hạnh phúc đến vậy. Rằng tại sao cuộc sống mình lại tồi tệ đến thế,họ quên mất việc ai trong chúng ta cũng có những vấn đề riêng,và không ai tránh được cả.' },
-      { p: 'Thôi dừng tại đây vậy...' },
+      { p: 'Giá mà mỗi một người có một ngày nghỉ cho riêng mình.' },
+      { p: 'Việc tất cả có chung một dịp đặc biệt, nên cứ vào những dịp ấy, mọi người cứ phải chen chúc nhau, chờ đợi để được tận hưởng cái hạnh phúc lẽ ra phải có, chứ không như được ban ơn như vậy.' },
+      { p: 'Một mặt khác, việc tất cả mọi người cùng có chung những dịp nghỉ ngơi như này, đấy là việc người cô đơn, người không hạnh phúc, người đang hạnh phúc cùng nhau có một dịp nghỉ ngơi. Lúc này:' },
+      { p: '"Người cô đơn sẽ càng cô đơn, người không hạnh phúc sẽ càng không hạnh phúc, và người hạnh phúc, tôi tin, cũng không muốn nhìn thấy cảnh này."' },
+      { p: 'Đương nhiên, xã hội không vận hành theo cách tôi muốn được.' },
+      { p: 'Một lần nữa, tôi ghét mạng xã hội. Mọi người, ai cũng sẽ có lúc buồn khi dùng mạng xã hội.' },
+      { p: 'Bạn biết đấy, chúng ta luôn luôn chỉ đăng tải những khung cảnh hạnh phúc lên mạng xã hội. Điều đó vô hình chung tạo ra ảo tưởng cho những người xung quanh, rằng cái người đấy, người kia sao lại hạnh phúc đến vậy, rằng tại sao cuộc sống mình lại tồi tệ đến thế.' },
+      { p: 'Họ quên mất việc ai trong chúng ta cũng có những vấn đề riêng, và không ai tránh được cả.' },
+      { p: 'Thôi, dừng tại đây vậy...' },
       { p: 'Chúc thế giới những 20 tháng 10 sau sẽ không còn những "cô đơn".' }
     ]
   }
