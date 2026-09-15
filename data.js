@@ -168,6 +168,27 @@ const POSTS = [
     ]
   },
   {
+    slug: 'tong-hop-tho-vo-van', date: '2025-12-14', read: '2 min read', tags: ['poetry', 'tiếng việt'],
+    title: 'Tổng hợp thơ vớ vẩn',
+    excerpt: 'Vẫn góc phòng, vẫn anh và cây viết, / Xuân sang rồi, anh ngỡ ái tình vơi',
+    body: [
+      { h: 'Năm ấy', id: 'nam-ay' },
+      { p: 'Vẫn góc phòng, vẫn anh và cây viết,<br>Xuân sang rồi, anh ngỡ ái tình vơi<br>Chuyện xưa tưởng đã ngủ, luân hồi<br>Em vẫn thở, và vẫn cười, vẫn nói.' },
+      { p: 'Xuân lại tới, lòng anh dần đã tỏ,<br>Lời chưa ngỏ anh thấy hãy còn vương<br>Gió xuân thoảng, tiếng cười em trong gió<br>Ai ngờ xuân cũng hóa tang thương.' },
+      { h: 'Vọng vũ', id: 'vong-vu' },
+      { p: 'Ngày đầu gặp em, mưa giăng tới,<br>Một thoáng tim nghiêng, nắng vỡ trời.<br>Tưởng chuyện như mây tan cuối hạ,<br>Mà hồn còn vang bóng ai cười.' },
+      { p: 'Nhìn mắt em, tôi ngỡ hạ vừa tới,<br>Nào hay thu khẽ gọi đông rơi.<br>Chuyện xưa cũ, người đã không buồn kể,<br>Tôi vẫn ngồi đây — ngóng mưa rơi.' },
+      { h: 'Em thấy gì trong mắt tôi', id: 'em-thay-gi-trong-mat-toi' },
+      { p: 'Em thấy gì trong mắt tôi —<br>Giảng đường sương sớm, ghế còn đôi.<br>Trang vở nghiêng nghiêng tên người viết,<br>Chữ Mến còn vương một góc trời.' },
+      { p: 'Chiều rụng nắng tàn bên khóm cúc,<br>Lối về gió quét lá bay rơi.<br>Tôi đứng ngẩn ngơ nhìn khung cửa,<br>Ngỡ như ai gọi giữa mưa phơi.' },
+      { h: 'Museum of Failure', id: 'museum-of-failure' },
+      { p: 'I look at myself and find nothing<br>Its like a part of me was dying<br>Trying hard, did everything i could<br>What left is just a splash of trying' },
+      { note: 'Đa số thời điểm thì mình cũng chẳng nhận thức được mình đang làm gì,mà về cơ bản cũng chẳng quan tâm nó cho lắm,vì cũng giải quyết được gì.<br><br>Cơ mà những lúc não rỗi hơi thì sẽ chợt nhận ra mình đang sống,ngoài kia có hàng tỷ người cũng đang sống giống mình,mỗi người có 1 ước mơ,kế hoạch,hoài bão giống mình,tự nhiên thấy thế giới to lớn hẳn,cơ mà thấy cũng dở hơi không kém,khi mà thế giới nhiều người như thế,lớn như thế,thế mà bằng cách thần kỳ nào đấy thì hầu hết mọi người vẫn chẳng tìm được cách tìm được một nửa để bên nhau.<br><br>Nói chung là dở hơi,thế giới này dở hơi thật.' },
+      { h: 'Đông chí', id: 'dong-chi' },
+      { p: 'Em bước tới cùng mưa rào mùa hạ<br>Chân dạo bước trên đường nhỏ có hoa<br>Tiếng chân nhịp cùng mưa rơi rộn rã<br>Rộn cả đời rộn cả trái tim ta<br>Để rồi khi cơn mưa vừa qua<br>Em hỏi tôi : Tình này liệu có giả?<br>Tôi bảo là : Tình chả phải hôm qua<br>Nếu có thể,xin một ngàn năm nữa<br>Nửa yêu em,nửa viết hết tình ta.' }
+    ]
+  },
+  {
     slug: 'van-toc-roi-cua-la-hoa-anh-dao', date: '2025-12-06', read: '1 min read', tags: ['life', 'film', 'tiếng việt'],
     title: 'Vận tốc rơi của lá hoa anh đào',
     excerpt: '5cm/s is not just the falling speed of cherry blossoms, but the speed at which we quietly walked past each other and lost the warmest feelings of love.',
