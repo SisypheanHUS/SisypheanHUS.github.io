@@ -158,6 +158,16 @@ const POSTS = [
     ]
   },
   {
+    slug: 'nhat-nac-thien-kim', date: '2026-05-29', read: '1 min read', tags: ['poetry', 'tiếng việt'],
+    title: 'Nhất nặc thiên kim',
+    excerpt: 'Ai buôn nỗi nhớ nỗi lòng / Ai mua ai bán, người mong kẻ cần',
+    body: [
+      { p: 'Ai buôn nỗi nhớ nỗi lòng<br>Ai mua ai bán, người mong kẻ cần<br>Ai đong ai đếm xa gần<br>Trăm cân một kiếp, nghìn cân một đời.' },
+      { p: 'Nhớ thương nào dễ rao mời<br>Bán mua sao được một lời thủy chung<br>Tình kia gói trọn vô cùng<br>Đem cân chợ nhớ, muôn trùng cách xa.' },
+      { p: 'Người đi để lại mình ta<br>Ôm sầu cân mãi, ngày qua tháng dài<br>Tình sâu nghĩa nặng chẳng phai<br>Nghìn cân gánh nặng vì ai trọn đời.' }
+    ]
+  },
+  {
     slug: 'van-toc-roi-cua-la-hoa-anh-dao', date: '2025-12-06', read: '1 min read', tags: ['life', 'film', 'tiếng việt'],
     title: 'Vận tốc rơi của lá hoa anh đào',
     excerpt: '5cm/s is not just the falling speed of cherry blossoms, but the speed at which we quietly walked past each other and lost the warmest feelings of love.',
