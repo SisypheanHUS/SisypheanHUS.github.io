@@ -619,7 +619,8 @@ const RESUME = {
     ] },
     { group: 'Languages', items: [
       'Vietnamese — Native',
-      'English — TOEIC 890 (L/R 460/430)'
+      'English — TOEIC 890 (L/R 460/430)',
+      'Japanese — JLPT N5'
     ] }
   ],
   awards: [
