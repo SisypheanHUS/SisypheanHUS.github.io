@@ -584,7 +584,30 @@ function route() {
   document.getElementById('search-input').value = '';
   render();
   window.scrollTo(0, 0);
+  queueRoll();
 }
+
+/* ---------- colour roll: styles.css turns the palette's hue by --roll (0 at the top, 1 at the bottom) ---------- */
+
+function colourRoll() {
+  const root = document.documentElement;
+  let queued = false;
+  const apply = () => {
+    queued = false;
+    const max = root.scrollHeight - window.innerHeight;
+    const progress = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+    root.style.setProperty('--roll', progress.toFixed(3));
+  };
+  const queue = () => {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(apply);
+  };
+  window.addEventListener('scroll', queue, { passive: true });
+  window.addEventListener('resize', queue);
+  return queue;
+}
+const queueRoll = colourRoll();
 
 /* ---------- events ---------- */
 

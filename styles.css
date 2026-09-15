@@ -1,26 +1,54 @@
 /* Tokens — Modernist system retuned to the earth-brown palette (see handoff README). */
 :root {
-  --color-bg: #e9e0d1; --color-surface: #ddd2bf; --color-text: #2b201a;
-  --color-accent: #9c4a24; --color-accent-2: #8a6a3b;
+  --base-bg: #e9e0d1; --base-surface: #ddd2bf; --color-text: #2b201a;
+  --base-accent: #9c4a24; --color-accent-2: #8a6a3b;
   --color-divider: color-mix(in srgb, #2b201a 36%, transparent);
-  --color-neutral-100: #f3ecdf; --color-neutral-200: #e3d9c8; --color-neutral-300: #ccc0ab;
+  --base-neutral-100: #f3ecdf; --color-neutral-200: #e3d9c8; --color-neutral-300: #ccc0ab;
   --color-neutral-400: #b0a38c; --color-neutral-500: #91846d; --color-neutral-600: #746754;
-  --color-neutral-700: #58503e; --color-neutral-800: #3e372b; --color-neutral-900: #29241b;
-  --color-accent-100: #f7ece1; --color-accent-200: #edd8c4; --color-accent-300: #dcb89b;
-  --color-accent-400: #c68a60; --color-accent-500: #b06038; --color-accent-600: #9c4a24;
-  --color-accent-700: #7c3718; --color-accent-800: #5b2811; --color-accent-900: #3c1d0e;
+  --color-neutral-700: #58503e; --base-neutral-800: #3e372b; --color-neutral-900: #29241b;
+  --base-accent-100: #f7ece1; --color-accent-200: #edd8c4; --color-accent-300: #dcb89b;
+  --base-accent-400: #c68a60; --color-accent-500: #b06038; --base-accent-600: #9c4a24;
+  --base-accent-700: #7c3718; --base-accent-800: #5b2811; --color-accent-900: #3c1d0e;
   --color-accent-2-100: #f5eee0; --color-accent-2-200: #e9dcc2; --color-accent-2-800: #4a3a1e;
   --font-heading: "Cormorant Garamond", Georgia, serif;
   --font-body: "EB Garamond", Georgia, serif;
 }
 :root[data-theme="dark"] {
-  --color-bg: #1b1510; --color-surface: #291f18; --color-text: #ece0cd;
-  --color-accent: color-mix(in oklch, #9c4a24 58%, #f0dcc4);
+  --base-bg: #1b1510; --base-surface: #291f18; --color-text: #ece0cd;
+  --base-accent: color-mix(in oklch, #9c4a24 58%, #f0dcc4);
   --color-divider: color-mix(in srgb, #ece0cd 32%, transparent);
-  --color-neutral-100: #2c231b; --color-neutral-200: #3a2f24; --color-neutral-800: #e6dac7;
-  --color-accent-100: #3a1f11; --color-accent-200: #4d2916;
-  --color-accent-700: #e0a878; --color-accent-800: #eac09a;
+  --base-neutral-100: #2c231b; --color-neutral-200: #3a2f24; --base-neutral-800: #e6dac7;
+  --base-accent-100: #3a1f11; --color-accent-200: #4d2916;
+  --base-accent-700: #e0a878; --base-accent-800: #eac09a;
   --color-accent-2-100: #33281a; --color-accent-2-800: #e4cfa4;
+}
+
+/* Scroll roll: app.js sets --roll from 0 (top of the page) to 1 (bottom). The browns take the base
+   colours above and turn their hue up to 65°, earth → amber → olive; the paper turns only 35° so it
+   stays straw rather than going green. Both themes. Text and dividers never move. Browsers without
+   relative colours keep the base palette. */
+:root {
+  --turn: calc(var(--roll, 0) * 65);
+  --turn-paper: calc(var(--roll, 0) * 35);
+  --color-bg: var(--base-bg); --color-surface: var(--base-surface); --color-accent: var(--base-accent);
+  --color-neutral-100: var(--base-neutral-100); --color-neutral-800: var(--base-neutral-800);
+  --color-accent-100: var(--base-accent-100); --color-accent-400: var(--base-accent-400);
+  --color-accent-600: var(--base-accent-600); --color-accent-700: var(--base-accent-700);
+  --color-accent-800: var(--base-accent-800);
+}
+@supports (color: oklch(from red l c h)) {
+  :root {
+    --color-bg: oklch(from var(--base-bg) l c calc(h + var(--turn-paper)));
+    --color-surface: oklch(from var(--base-surface) l c calc(h + var(--turn-paper)));
+    --color-accent: oklch(from var(--base-accent) l c calc(h + var(--turn)));
+    --color-neutral-100: oklch(from var(--base-neutral-100) l c calc(h + var(--turn-paper)));
+    --color-neutral-800: oklch(from var(--base-neutral-800) l c calc(h + var(--turn-paper)));
+    --color-accent-100: oklch(from var(--base-accent-100) l c calc(h + var(--turn)));
+    --color-accent-400: oklch(from var(--base-accent-400) l c calc(h + var(--turn)));
+    --color-accent-600: oklch(from var(--base-accent-600) l c calc(h + var(--turn)));
+    --color-accent-700: oklch(from var(--base-accent-700) l c calc(h + var(--turn)));
+    --color-accent-800: oklch(from var(--base-accent-800) l c calc(h + var(--turn)));
+  }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
