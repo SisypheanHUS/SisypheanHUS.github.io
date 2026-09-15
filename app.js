@@ -424,6 +424,8 @@ function renderSearch() {
 
 /* ---------- chrome ---------- */
 
+const RAIL_SPRIG = FLOWERS.sprig('paint-rail'); // painted once; the rail re-renders on every keystroke
+
 function renderRail() {
   const searching = state.query.trim().length > 1;
   const links = NAV.map((n) => `
@@ -440,7 +442,7 @@ function renderRail() {
       <a href="https://www.linkedin.com/in/SisypheanHUS" target="_blank" rel="noopener" class="quiet-link">LinkedIn / SisypheanHUS</a>
       <span style="opacity:.5">Hanoi, Vietnam</span>
     </div>
-    <div class="rail-sprig">${FLOWERS.sprig('paint-rail')}</div>`;
+    <div class="rail-sprig">${RAIL_SPRIG}</div>`;
 }
 
 function renderChrome() {
