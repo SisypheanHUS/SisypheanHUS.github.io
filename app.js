@@ -48,13 +48,14 @@ function renderHome() {
       ${n.quip ? `<div style="font:400 italic 12.5px/1.55 var(--font-body);opacity:.68;margin-top:6px">${n.quip}</div>` : ''}
     </div>`).join('');
 
-  const readingRows = HOME.reading.map((b) => `
+  // Only the book being read now; the rest of HOME.reading stays in data.js, hidden.
+  const readingRows = HOME.reading.filter((b) => b.now).map((b) => `
     <div style="display:flex;align-items:baseline;gap:12px;padding:12px 0;border-bottom:1px solid var(--color-divider)">
       <div>
         <div style="font:800 15px/1.3 var(--font-heading)">${b.title}</div>
         <div style="font:400 12.5px/1.5 var(--font-body);color:var(--color-accent-700);margin-top:3px">${b.ref}</div>
       </div>
-      <span style="margin-left:auto;flex:none;font:400 10px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;${b.now ? 'color:var(--color-accent)' : 'opacity:.5'}">${L(b.now ? UI.readingNow : UI.upNext)}</span>
+      <span style="margin-left:auto;flex:none;font:400 10px/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;color:var(--color-accent)">${L(UI.readingNow)}</span>
     </div>`).join('');
 
   const latestRows = POSTS.map((p) => `

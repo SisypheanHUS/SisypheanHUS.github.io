@@ -12,7 +12,6 @@ const UI = {
   nowTitle: 'What I am doing now',
   readingTitle: 'Current reading',
   readingNow: 'Reading',
-  upNext: 'Up next',
   latestTitle: 'Latest writing',
   all: 'All',
   back: 'Back',
