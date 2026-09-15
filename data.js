@@ -77,7 +77,7 @@ const NAV = [
 
 const HOME = {
   headline: 'I write down what I am still figuring out.',
-  intro: 'Applied mathematics student in Hanoi. I do alpha research at WorldQuant BRAIN and physics research at IOP VAST. The rest of my mathematics is self-taught, and I only read what brings me joy. This site is where I reflect on and criticize my own work, tell a few jokes, and share whatever else I feel like writing about.',
+  intro: 'Applied mathematics student in Hanoi. I do alpha research at WorldQuant <span class="caps">BRAIN</span> and physics research at <span class="caps">IOP VAST</span>. The rest of my mathematics is self-taught, and I only read what brings me joy. This site is where I reflect on and criticize my own work, tell a few jokes, and share whatever else I feel like writing about.',
   stats: [
     { n: 'i', label: 'im not good at math' },
     { n: 'ii', label: 'im going for a master degree in germany for mathematics (hopefully)' },

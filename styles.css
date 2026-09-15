@@ -144,6 +144,9 @@ a:hover { color: var(--color-accent-700); }
 }
 .chip.on { background: var(--color-accent); color: var(--color-bg); border-color: var(--color-accent); }
 
+/* — acronyms in running text: small caps so they sit at lowercase height — */
+.caps { font-variant-caps: all-small-caps; letter-spacing: .05em; }
+
 /* — comments under a post — */
 .comments { margin-top: 44px; border-top: 5px double var(--color-divider); padding-top: 22px; }
 .comments-title { margin: 0 0 18px; font: 300 26px/1.1 var(--font-heading); letter-spacing: .07em; text-transform: uppercase; }
