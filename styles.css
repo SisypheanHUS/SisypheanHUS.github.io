@@ -1,35 +1,28 @@
-/* Tokens — Modernist system retuned to the earth-brown palette (see handoff README). */
+/* Tokens — Modernist system on a single cold-black palette: night sky, white blossom, moonlit
+   silver-blue accent. Scales run dark (100) → light (900). */
 :root {
-  --base-bg: #e9e0d1; --base-surface: #ddd2bf; --color-text: #2b201a;
-  --base-accent: #9c4a24; --color-accent-2: #8a6a3b;
-  --color-divider: color-mix(in srgb, #2b201a 36%, transparent);
-  --base-neutral-100: #f3ecdf; --color-neutral-200: #e3d9c8; --color-neutral-300: #ccc0ab;
-  --color-neutral-400: #b0a38c; --color-neutral-500: #91846d; --color-neutral-600: #746754;
-  --color-neutral-700: #58503e; --base-neutral-800: #3e372b; --color-neutral-900: #29241b;
-  --base-accent-100: #f7ece1; --color-accent-200: #edd8c4; --color-accent-300: #dcb89b;
-  --base-accent-400: #c68a60; --color-accent-500: #b06038; --base-accent-600: #9c4a24;
-  --base-accent-700: #7c3718; --base-accent-800: #5b2811; --color-accent-900: #3c1d0e;
-  --color-accent-2-100: #f5eee0; --color-accent-2-200: #e9dcc2; --color-accent-2-800: #4a3a1e;
+  color-scheme: dark;
+  --base-bg: #060709; --base-surface: #0e1014; --color-text: #e4e7eb;
+  --base-accent: #a9bccf; --color-accent-2: #8e9aa6;
+  --color-divider: color-mix(in srgb, #e4e7eb 22%, transparent);
+  --base-neutral-100: #14171c; --color-neutral-200: #1c2027; --color-neutral-300: #2a2f37;
+  --color-neutral-400: #444a53; --color-neutral-500: #626872; --color-neutral-600: #858b94;
+  --color-neutral-700: #a8adb4; --base-neutral-800: #cdd1d6; --color-neutral-900: #eceef0;
+  --base-accent-100: #111820; --color-accent-200: #1a2430; --color-accent-300: #2c3b4c;
+  --base-accent-400: #7e95ad; --color-accent-500: #93a8bd; --base-accent-600: #c0cedb;
+  --base-accent-700: #c9d5e1; --base-accent-800: #d6e0ea; --color-accent-900: #e8eef4;
+  --color-accent-2-100: #15181c; --color-accent-2-200: #1f242a; --color-accent-2-800: #cfd6dd;
   --font-heading: "Cormorant Garamond", Georgia, serif;
   --font-body: "EB Garamond", Georgia, serif;
 }
-:root[data-theme="dark"] {
-  --base-bg: #1b1510; --base-surface: #291f18; --color-text: #ece0cd;
-  --base-accent: color-mix(in oklch, #9c4a24 58%, #f0dcc4);
-  --color-divider: color-mix(in srgb, #ece0cd 32%, transparent);
-  --base-neutral-100: #2c231b; --color-neutral-200: #3a2f24; --base-neutral-800: #e6dac7;
-  --base-accent-100: #3a1f11; --color-accent-200: #4d2916;
-  --base-accent-700: #e0a878; --base-accent-800: #eac09a;
-  --color-accent-2-100: #33281a; --color-accent-2-800: #e4cfa4;
-}
 
-/* Scroll roll: app.js sets --roll from 0 (top of the page) to 1 (bottom). The browns take the base
-   colours above and turn their hue up to 65°, earth → amber → olive; the paper turns only 35° so it
-   stays straw rather than going green. Both themes. Text and dividers never move. Browsers without
-   relative colours keep the base palette. */
+/* Scroll roll: app.js sets --roll from 0 (top of the page) to 1 (bottom). The accents take the base
+   colours above and turn their hue up to 55°, silver-blue → pale violet; the near-black ground turns
+   only 25° so it stays a cold night. Text and dividers never move. Browsers without relative colours
+   keep the base palette. */
 :root {
-  --turn: calc(var(--roll, 0) * 65);
-  --turn-paper: calc(var(--roll, 0) * 35);
+  --turn: calc(var(--roll, 0) * 55);
+  --turn-paper: calc(var(--roll, 0) * 25);
   --color-bg: var(--base-bg); --color-surface: var(--base-surface); --color-accent: var(--base-accent);
   --color-neutral-100: var(--base-neutral-100); --color-neutral-800: var(--base-neutral-800);
   --color-accent-100: var(--base-accent-100); --color-accent-400: var(--base-accent-400);
@@ -59,7 +52,6 @@ img { display: block; max-width: 100%; }
 figure { margin: 0; }
 a { color: var(--color-accent); text-underline-offset: 4px; }
 a:hover { color: var(--color-accent-700); }
-:root[data-theme="dark"] a:not(.btn) { color: var(--color-accent-400); }
 :focus { outline: none; }
 :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 ::selection { background: color-mix(in srgb, var(--color-accent) 30%, transparent); }
@@ -100,7 +92,6 @@ a:hover { color: var(--color-accent-700); }
 }
 .brand { display: flex; flex-direction: column; gap: 1px; text-decoration: none; color: inherit; margin-right: auto; }
 .brand:hover { color: inherit; }
-:root[data-theme="dark"] a.brand { color: inherit; }
 .brand-name { font: 500 22px/1.05 var(--font-heading); letter-spacing: .17em; }
 .brand-role { font: 400 10.5px/1.3 var(--font-body); letter-spacing: .2em; text-transform: uppercase; color: var(--color-accent); margin-top: 3px; }
 .search-box {
@@ -112,12 +103,6 @@ a:hover { color: var(--color-accent-700); }
   flex: 1; min-width: 0; border: 0; background: transparent;
   font: 400 13px/1.4 var(--font-body); color: var(--color-text); outline: none;
 }
-.iconbtn {
-  display: flex; align-items: center; justify-content: center;
-  width: 34px; height: 34px; padding: 0; cursor: pointer;
-  background: transparent; border: 1px solid var(--color-divider); color: var(--color-text);
-}
-.iconbtn:hover { background: color-mix(in srgb, var(--color-text) 8%, transparent); }
 
 /* — shell: rail + main — */
 .shell {
@@ -140,15 +125,11 @@ a:hover { color: var(--color-accent-700); }
   color: var(--color-accent); opacity: 1; font-weight: 600;
   font-variant: small-caps; letter-spacing: .09em;
 }
-:root[data-theme="dark"] a.navlink { color: var(--color-text); }
-:root[data-theme="dark"] a.navlink.active, :root[data-theme="dark"] a.navlink:hover { color: var(--color-accent); }
 .nav-ord { font: 400 10px/1 ui-monospace, Menlo, monospace; letter-spacing: .08em; opacity: .5; width: 16px; flex: none; }
 .rail-rule { height: 2px; background: var(--color-divider); margin: 20px 26px 16px 0; }
 .rail-contacts { display: flex; flex-direction: column; gap: 7px; padding-right: 26px; font: 400 11.5px/1.5 var(--font-body); }
 .quiet-link { text-decoration: none; color: var(--color-text); opacity: .7; }
 .quiet-link:hover { opacity: 1; color: var(--color-accent); }
-:root[data-theme="dark"] a.quiet-link { color: var(--color-text); }
-:root[data-theme="dark"] a.quiet-link:hover { color: var(--color-accent); }
 #view { padding: 44px 48px 90px; min-width: 0; }
 
 /* — footer — */
@@ -161,11 +142,8 @@ a:hover { color: var(--color-accent-700); }
 /* — shared row hover — */
 .hover-tint:hover { background: color-mix(in srgb, var(--color-text) 4%, transparent); }
 .plain-link { text-decoration: none; color: inherit; }
-:root[data-theme="dark"] a.plain-link { color: inherit; }
 .toclink { font: 400 12.5px/1.45 var(--font-body); text-decoration: none; color: var(--color-text); opacity: .72; }
 .toclink:hover { opacity: 1; color: var(--color-accent); }
-:root[data-theme="dark"] a.toclink { color: var(--color-text); }
-:root[data-theme="dark"] a.toclink:hover { color: var(--color-accent); }
 .chip {
   font: 400 11.5px/1 var(--font-body); padding: 7px 12px; cursor: pointer;
   border: 1px solid var(--color-divider); background: transparent; color: var(--color-text);

@@ -3,7 +3,6 @@
    start with "#/" are in-page anchors (post TOC) and are ignored here. */
 
 const state = {
-  theme: localStorage.getItem('theme') || 'light',
   page: 'home',
   doc: null,
   prev: 'blog',
@@ -446,11 +445,6 @@ function renderChrome() {
   document.getElementById('brand-role').textContent = L(UI.role);
   document.getElementById('search-input').placeholder = L(UI.search);
   document.getElementById('footer-motto').textContent = L(UI.builtWith);
-  document.getElementById('btn-theme').title = L(UI.theme);
-  const dark = state.theme === 'dark';
-  document.documentElement.dataset.theme = dark ? 'dark' : '';
-  document.getElementById('ico-moon').style.display = dark ? 'none' : 'block';
-  document.getElementById('ico-sun').style.display = dark ? 'block' : 'none';
 }
 
 /* ---------- math ---------- */
@@ -611,11 +605,6 @@ const queueRoll = colourRoll();
 
 /* ---------- events ---------- */
 
-document.getElementById('btn-theme').addEventListener('click', () => {
-  state.theme = state.theme === 'dark' ? 'light' : 'dark';
-  localStorage.setItem('theme', state.theme);
-  renderChrome();
-});
 document.getElementById('search-input').addEventListener('input', (e) => {
   state.query = e.target.value;
   render();

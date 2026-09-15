@@ -4,7 +4,6 @@
 const UI = {
   role: 'Applied mathematics · Hanoi',
   search: 'Search notes, posts, files…',
-  theme: 'Toggle dark mode',
   homeKicker: 'Student · alpha researcher · writes things down',
   epigraph: 'One must imagine Sisyphus happy.',
   epigraphSource: 'Albert Camus, The Myth of Sisyphus',

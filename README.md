@@ -10,7 +10,7 @@ Bilingual (EN/VI) personal website of Dinh Thai Tuan, served at
 | Framework | None — static HTML + vanilla JS, hash routing |
 | Content | `data.js` (all EN/VI strings) |
 | Rendering | `app.js` (templates per section) |
-| Styles | `styles.css` (Modernist tokens, earth-brown palette) |
+| Styles | `styles.css` (Modernist tokens, cold-black palette) |
 | Math | KaTeX 0.16.9 via CDN |
 | Fonts | Cormorant Garamond + EB Garamond (Google Fonts, Vietnamese subset) |
 | Comments | `comments/` — Cloudflare Worker + D1, no accounts (see below) |
