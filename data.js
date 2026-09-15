@@ -607,7 +607,7 @@ const RESUME = {
       bullets: [
         'Proposed a deep learning-based approach for quantifying methanol concentration in ethanol–methanol mixtures using Raman spectroscopy.',
         'Proposed and evaluated 1D and 2D CNN-based methods for the classification of methanol and ethanol from Raman spectral data.',
-        'First author of a paper published in the proceedings of ICAEP-9 (2025).'
+        'First author of three conference papers: one at ICAEP-9 (2025) and two at ICPA-NCOS 14 (2026, incl. one oral).'
       ]
     },
     {
