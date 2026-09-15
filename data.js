@@ -296,6 +296,125 @@ const POSTS = [
       { p: '- Lục Du - Trâm Đầu Phượng' },
       { img: 'assets/garden-of-words.jpg', cap: '言の葉の庭 — The Garden of Words' }
     ]
+  },
+  {
+    slug: 'happy-new-year', date: '2024-01-05', read: '1 min read', tags: ['music', 'life'],
+    title: 'Happy New Year',
+    excerpt: 'Seems to me now / That the dreams we had before / Are all dead, nothing more / Than confetti on the floor',
+    body: [
+      { p: 'Seems to me now<br>That the dreams we had before<br>Are all dead, nothing more<br>Than confetti on the floor<br>It\'s the end of a decade<br>In another ten years time<br>Who can say what we\'ll find<br>What lies waiting down the line<br>In the end of eighty-nine' },
+      { p: '- ABBA - Happy New Year' },
+      { img: 'assets/bus-stop-night.jpg', cap: '' }
+    ]
+  },
+  {
+    slug: 'how-should-we-live-our-lives', date: '2023-09-02', read: '4 min read', tags: ['life', 'quora'],
+    title: 'How should we live our lives?',
+    excerpt: 'I know a close family friend. Dedicated Doctor. Loving husband. Caring father.',
+    body: [
+      { note: 'An answer I liked on Quora. I have forgotten the author’s name; the words below are theirs, not mine.' },
+      { p: 'How do i learn how to live life?' },
+      { p: 'How should we live our lives?' },
+      { p: 'I know a close family friend.' },
+      { p: 'Dedicated Doctor. Loving husband. Caring father. Professionally, he was a very successful person. He ran his own hospital.' },
+      { p: 'He was famous in the area for his many philanthropic deeds, timely help for the needy, and selfless dedication toward his work. Locals had a faith that visiting him would be the cure for most ailments. They trusted him. He was god-like.' },
+      { p: 'He was also famous in my family circles for his strong atheistic views. Reasoning, logic, and objective approaches formed the very core of his life.' },
+      { p: 'My family is deep-rooted in Christianity and thus his stance looked oddly outlandish.' },
+      { p: 'He was very rich, at least compared to most people in my family. My mom and dad do not have a car even now. But this man had three cars ten years ago. He was a dog lover. He had five dogs.' },
+      { p: 'Frequent international tours. Finest food. Stunning cars. Grand lifestyle. Put all these with this: kind, altruistic, balanced, and charismatic personality.' },
+      { p: 'That was him. The perfect package.' },
+      { p: 'Naturally, as a young man, I considered him my role model. I could not sense a false note anywhere.' },
+      { p: 'The final year of my engineering.' },
+      { p: 'He was diagnosed with Pancreatic cancer. The news struck us like lightning. The whole family scrabbled its way to his home.' },
+      { p: 'His life came crashing like a meteor. The whole town was in disbelief and shock.' },
+      { p: 'Many stupid but concerned questions were raised: “How could this happen to HIM?” “Why HIM, of all people?” “How could this happen to a Doctor?”' },
+      { p: 'Regardless of the commotion, his time kept ticking. I remember visiting him during his last two months.' },
+      { p: 'I literally stopped breathing for a moment when I entered his home.' },
+      { p: 'The curtains had been enveloped with dust. The floor had not been mopped. The beautiful plants outside had started dying. The cars stood there begging for attention.' },
+      { p: 'Three of the five dogs had been given away. “He wanted to keep Fido and Henry until…” the maid said with a trembling voice, holding on to my mom.' },
+      { p: 'Every face in the home was grief-stricken. Death prevailed in the room. There was an absolute silence in the home. Deafening silence.' },
+      { p: 'When I walked to his bed-side, every tinge of charm, glamour, and life his face once had had deserted him. He was pale and lifeless.' },
+      { p: 'There were pastors in his home. He had apparently requested for people from all faiths to pray for him. There were bibles all over. Verses from the Quran and bible had been pasted all over the wall.' },
+      { p: 'His wife told me about the changes he had been showing ever since the diagnosis. That night, I witnessed the horrors of his pain.' },
+      { p: 'I was in the hall and I could hear him wailing in his room. “Someone save me. Take this pain away from me. Jesus, please hear me. I beg you. IS THERE A GOD WHO HEARS ME?”' },
+      { p: 'I could clearly hear him sobbing like a 10-year old. I could hear thumps. Slaps. Something clawing the ground. Something being dragged on the floor. Something wriggling.' },
+      { p: 'A few minutes later.' },
+      { p: '“Darling, forgive me. PLEASE FORGIVE ME. PLEASE TELL ME I WILL LIVE.. JUST TELL ME…JUST….ahhhhhhh”' },
+      { p: 'And then some unintelligible mumbling. Muffled screams. Muted and menacing.' },
+      { p: 'This continued for almost an hour. And then, silence, marred intermittently by a woman sobbing. His wife.' },
+      { p: 'The next morning, the wife said that such nights had become a norm. She said how badly she wished he died instead of enduring the pain.' },
+      { p: 'I heard her crying into my mom’s chests: “Akka, I want him to die, but he keeps saying some miracle will happen and he will survive.”' },
+      { p: 'I left his home, but my mom told me of how his final hours were.' },
+      { p: '“He kept begging to ALL the gods before stumbling into unconsciousness.” “He sobbed, pleadingly.”' },
+      { p: 'He kept believing in a miracle. He waited.' },
+      { p: 'We hold on to so many ideologies. Beliefs. Plans. Rules. Policies. Everything is just a facade.' },
+      { p: 'When your oxygen runs out. When the last drop of your blood trickles down. When the last month of your life nears. When the last moment arrives.' },
+      { p: 'When your life is on the cliffhanger, the human inside you kicks his way out. Trembling. Begging. Pleading. Disproving all the massive facades you had built all your life.' },
+      { p: 'Every brick of the wall you have built will be blown to smithereens. Your knowledge will vanish. Remember, the man who waited for a miracle was a doctor.' },
+      { p: 'You and I are fragile. Just wet fluttering tissues.' },
+      { p: 'Stop building facades. Be whoever you want to be. Atheist. Religious. Fat. Thin. Rich. Poor. Famous. Obscured.' },
+      { p: 'It does not matter. Just Start living while you still can. Love more. Live more. Lose the hatred. Lose the arrogance.' },
+      { p: '’Cause no matter how you choose to live, death beckons.' },
+      { p: '-Quora-' }
+    ]
+  },
+  {
+    slug: 'live-free', date: '2023-08-25', read: '2 min read', tags: ['life', 'diary', 'music'],
+    title: 'Live free',
+    excerpt: 'It\'s part of our life that we need to sacrifice something to achieve something, but that\'s the thing.',
+    body: [
+      { p: 'Well, I just want to write something today.' },
+      { p: 'It\'s part of our life that we need to sacrifice something to achieve something (it could be better or worse), but that\'s the thing.' },
+      { p: 'Truthfully, I want to get a lot of things, but I don\'t really know whether they are good or not. Thinking about it is one of several ways to know, but just thinking isn\'t enough.' },
+      { p: 'Also, I always consider that the "youth" things almost every young man out there talks about, like "having fun", chilling out with your friends, playing games, going travelling, etc., are not really "living"? That\'s just an excuse to enjoy their life without any consequences, and if someone says they are wasting their life, they will say it\'s because they were young.' },
+      { p: 'Well, I still hate that one, but I found something in it that might be right.' },
+      { p: 'Doing something you like is not that bad, especially when you don\'t know what to do.' },
+      { p: 'All this is about the war between dream and reality. I didn\'t know what to do or what to learn because I was scared it would be wrong; now it doesn\'t confuse me anymore.' },
+      { p: 'I\'m just going to go ahead and do one thing, no matter whether it turns out worse or better than the other one.' },
+      { p: 'For sure, that choice is not as bad as you think; it just might not be as good as the other.' },
+      { p: 'That\'s all. Now I\'m going right back to my work and keep doing it. Have a good day, sir.' },
+      { p: 'Oh, and one more thing: I\'ve got some lyrics here, from one of my favourite songs.' },
+      { p: 'They gonna try to tell you no<br>Shatter all your dreams<br>But you gotta get up and go<br>To bigger better things' },
+      { p: '- Mac Miller -' },
+      { p: 'Live free, mate.' },
+      { img: 'assets/live-free.jpg', cap: '' }
+    ]
+  },
+  {
+    slug: 'nhin-thau-trai-tim', date: '2023-02-27', read: '1 min read', tags: ['books', 'murakami', 'tiếng việt'],
+    title: 'Nhìn thấu trái tim',
+    excerpt: 'Nhưng dù có hiểu nhau thế nào, dù có yêu say đắm thế nào đi nữa thì tôi e rằng, nhìn thấu trái tim người khác là điều không thể.',
+    body: [
+      { p: '“Nhưng dù có hiểu nhau thế nào, dù có yêu say đắm thế nào đi nữa thì tôi e rằng, nhìn thấu trái tim người khác là điều không thể. Đòi hỏi này chỉ khiến bản thân đau khổ mà thôi. Tuy nhiên, nếu là trái tim của mình thì chỉ cần nỗ lực thôi là có thể nhìn thấu được. Vì vậy, rốt cuộc điều chúng ta phải làm chẳng phải là thu xếp một cách ổn thỏa và thành thật với chính trái tim mình hay sao. Nếu thực sự mong muốn nhìn thấu người khác thì chỉ còn cách là nhìn thẳng, thật sâu vào chính con người mình.”' },
+      { p: '- Haruki Murakami, Men Without Women -' }
+    ]
+  },
+  {
+    slug: 'memory-is-a-funny-thing', date: '2023-01-12', read: '1 min read', tags: ['books', 'murakami'],
+    title: 'Memory is a funny thing',
+    excerpt: 'Memory is a funny thing. When I was in the scene, I hardly paid it any mind.',
+    body: [
+      { p: '“Memory is a funny thing. When I was in the scene, I hardly paid it any mind. I never stopped to think of it as something that would make a lasting impression, certainly never imagined that eighteen years later I would recall it in such detail. I didn’t give a damn about the scenery that day. I was thinking about myself. I was thinking about the beautiful girl walking next to me. I was thinking about the two of us together, and then about myself again. It was the age, that time of life when every sight, every feeling, every thought came back, like a boomerang, to me. And worse, I was in love. Love with complications. The scenery was the last thing on my mind.”' },
+      { p: '- Haruki Murakami, Norwegian Wood -' }
+    ]
+  },
+  {
+    slug: 'what-do-we-have-left', date: '2022-10-20', read: '2 min read', tags: ['life', 'diary'],
+    title: 'What do we have left',
+    excerpt: 'It\'s not about money, it\'s not about love, or anything else; it\'s about people and how they treat their lives.',
+    body: [
+      { p: 'There are a lot of things that I want to say these days, but around them there is always one thing. It\'s not about money, it\'s not about love, or anything else; it\'s about people and how they treat their lives. I feel the disrespect for their lives coming from the bottom of their hearts. I just don\'t get it.' },
+      { p: 'Why do they need to be like that? Why?' },
+      { p: 'I could say shit like this all day, but you know, the reason behind this account is that every day my brain throws some shit at me, and I just don\'t want to keep it to myself, so I push it back out to the social, like this.' },
+      { p: 'People nowadays are something that I didn\'t understand, still don\'t, and never, ever will.' },
+      { p: 'I hate \'em. They say pride is gonna destroy someone, but without pride, who are they?' },
+      { p: 'Well, in the book <i>Man\'s Search for Meaning</i>, there\'s a question that is always in my head: "What do we have after we lose everything, like money, a job, a degree, all that stuff?" It reminds me of what really matters in life. Well, anyone can have their own answer, but for me, it can be anything, you know.' },
+      { p: 'For a dad, it\'s his son, his wife.' },
+      { p: 'For a mom, it\'s her parents, her home.' },
+      { p: 'And that\'s the key.' },
+      { p: 'I wish people could just put money behind life and get a life, truly living, not just trying to exist.' },
+      { p: 'Anyway, I still hate people, and it will never change, at least for some years.' }
+    ]
   }
 ];
 
