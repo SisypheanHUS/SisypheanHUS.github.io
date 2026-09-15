@@ -480,7 +480,7 @@ const PUBS = [
     venue: '14th International Conference on Photonics and Applications (ICPA-NCOS 14)'
   },
   {
-    kind: 'Poster', date: '2026-08-30',
+    kind: 'Proceedings', date: '2026-08-30',
     authors: 'D. T. Tuan, N. T. Hieu, P. H. Minh, V. Duong (2026)',
     title: 'Raman peak matching for component detection in compounds',
     venue: '14th International Conference on Photonics and Applications (ICPA-NCOS 14)'
