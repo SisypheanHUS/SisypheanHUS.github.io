@@ -130,7 +130,17 @@ a:hover { color: var(--color-accent-700); }
 .rail-contacts { display: flex; flex-direction: column; gap: 7px; padding-right: 26px; font: 400 11.5px/1.5 var(--font-body); }
 .quiet-link { text-decoration: none; color: var(--color-text); opacity: .7; }
 .quiet-link:hover { opacity: 1; color: var(--color-accent); }
-#view { padding: 44px 48px 90px; min-width: 0; }
+#view { padding: 44px 48px 90px; min-width: 0; position: relative; }
+
+/* — painted blossom branches (flowers.js) — */
+.hero-branch {
+  position: absolute; top: 0; right: 0; width: min(46vw, 600px); pointer-events: none;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 38%);
+  mask-image: linear-gradient(to right, transparent, #000 38%);
+}
+.hero-branch svg, .rail-sprig svg, .footer-sprig svg { display: block; width: 100%; height: auto; }
+.rail-sprig { width: 176px; margin: 34px 26px 0 -8px; opacity: .85; }
+.footer-sprig { width: 84px; align-self: center; opacity: .8; }
 
 /* — footer — */
 #site-footer {
@@ -186,7 +196,8 @@ a:hover { color: var(--color-accent-700); }
     min-height: 0;
   }
   .navlink { border-bottom: 0; padding: 6px 0; }
-  .rail-rule { display: none; }
+  .rail-rule, .rail-sprig { display: none; }
+  .hero-branch { width: 72vw; opacity: .4; }
   .rail-contacts { flex-direction: row; flex-wrap: wrap; gap: 4px 14px; width: 100%; padding: 6px 0 0; }
   #view { padding: 28px 18px 60px; }
   .post-grid { grid-template-columns: minmax(0, 1fr) !important; }

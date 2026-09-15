@@ -71,7 +71,8 @@ function renderHome() {
     </div>`).join('');
 
   return `
-  <div style="max-width:1000px">
+  <div class="hero-branch">${FLOWERS.hero}</div>
+  <div style="max-width:1000px;position:relative">
     <p style="font:400 11px/1 var(--font-body);letter-spacing:.22em;text-transform:uppercase;color:var(--color-accent);margin:0 0 22px">${L(UI.homeKicker)}</p>
     <h1 style="margin:0 0 26px;font-weight:300;font-size:clamp(40px,5.6vw,80px);line-height:1.02;letter-spacing:.02em;text-transform:uppercase;max-width:17ch;font-family:var(--font-heading)">${L(HOME.headline)}</h1>
     <div style="display:flex;gap:16px;margin:0 0 28px;max-width:52ch">
@@ -438,7 +439,8 @@ function renderRail() {
       <a href="https://github.com/SisypheanHUS" target="_blank" rel="noopener" class="quiet-link">GitHub / SisypheanHUS</a>
       <a href="https://www.linkedin.com/in/SisypheanHUS" target="_blank" rel="noopener" class="quiet-link">LinkedIn / SisypheanHUS</a>
       <span style="opacity:.5">Hanoi, Vietnam</span>
-    </div>`;
+    </div>
+    <div class="rail-sprig">${FLOWERS.sprig('paint-rail')}</div>`;
 }
 
 function renderChrome() {
@@ -626,4 +628,5 @@ document.addEventListener('click', (e) => {
 });
 
 window.addEventListener('hashchange', route);
+document.getElementById('footer-sprig').innerHTML = FLOWERS.sprig('paint-footer');
 route();
