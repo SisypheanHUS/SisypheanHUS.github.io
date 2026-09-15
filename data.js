@@ -266,6 +266,15 @@ const POSTS = [
     ]
   },
   {
+    slug: 'what-a-generation', date: '2025-02-23', read: '1 min read', tags: ['life', 'diary'],
+    title: 'What a generation',
+    excerpt: 'But now I\'m always worried that I\'m making the wrong choice.',
+    body: [
+      { p: 'But now I\'m always worried that I\'m making the wrong choice. That I\'ll end up super poor and unsuccessful because I didn\'t keep going with that engineer degree that "guarantees a good job" or whatever. It sucks, I\'m always worrying about it, that I\'m not doing enough to do well, that any time I spend relaxing is time wasted because there\'s no guarantee things will be good after college.' },
+      { p: 'What a generation.' }
+    ]
+  },
+  {
     slug: 'all-by-luck', date: '2024-10-16', read: '1 min read', tags: ['life', 'diary'],
     title: 'All by luck',
     excerpt: 'I did realize this for a while. But dealing with it is not that easy. Sometime it fades away for a moment, then it came back.',
