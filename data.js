@@ -495,9 +495,9 @@ const PUBS = [
 
 const PROJECTS = [
   {
-    kind: 'Web app', date: '2026-08',
-    title: 'RamanID — Raman spectral identification in the browser',
-    summary: 'Drop a Raman spectrum (.txt / .csv) and get a ranked list of candidate materials with posterior probabilities. Bayesian evidence against a Legendre-polynomial null model, within-class PCA over a reference library of ~16 000 spectra (minerals, organics, polymers; RRUFF, ROD, pharmaceutical sets). The whole pipeline — interpolation, Savitzky–Golay, ALS baseline, L2 normalisation, matching — is ported 1:1 from the Python research code and runs entirely client-side: no server, no upload.',
+    kind: 'Web app', date: '2026-09',
+    title: 'RamanSisyphean — Raman spectral identification in the browser',
+    summary: 'Drop a Raman spectrum (.txt / .csv) and get a ranked list of candidate substances with posterior probabilities. Bayesian evidence against a Legendre-polynomial null model, within-class PCA and a top-20 re-rank over a library of 11 601 spectra from 804 substances (RRUFF minerals and a 785 nm pharmaceutical set). Strict leave-one-out top-1 is 84.3%; on copies degraded by noise, fluorescence and axis drift it identifies 95.3% against 83.5% for cosine HQI, and 71.1% carries over to spectra recorded on other instruments. Fluorescence and absorption spectra can be fused in, and five known spectra calibrate the unknown-substance threshold for a new instrument. The whole pipeline — interpolation, Savitzky–Golay, ALS baseline, L2 normalisation, matching — is ported 1:1 from the Python research code and runs entirely client-side: no server, no upload.',
     tags: ['Raman', 'Bayesian inference', 'PCA', 'JavaScript'],
     live: 'https://sisypheanhus.github.io/raman/',
     source: 'https://github.com/SisypheanHUS/raman'
