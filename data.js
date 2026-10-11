@@ -477,10 +477,10 @@ const PUBS = [
     kind: 'Oral', date: '2026-08-30',
     authors: 'D. T. Tuan, N. T. Hieu, A. I. Vodchits, V. A. Orlovich, P. H. Minh, V. Duong (2026)',
     title: 'Raman spectroscopic identification of chemicals using a closed-form Bayesian marginal likelihood',
-    venue: '14th International Conference on Photonics and Applications (ICPA-NCOS 14)'
+    venue: 'FEE 2026'
   },
   {
-    kind: 'Oral', date: '2026-08-30',
+    kind: 'Poster', date: '2026-08-30',
     authors: 'D. T. Tuan, N. T. Hieu, P. H. Minh, V. Duong (2026)',
     title: 'Raman peak matching for component detection in compounds',
     venue: '14th International Conference on Photonics and Applications (ICPA-NCOS 14)'
@@ -607,7 +607,7 @@ const RESUME = {
       bullets: [
         'Proposed a deep learning-based approach for quantifying methanol concentration in ethanol–methanol mixtures using Raman spectroscopy.',
         'Proposed and evaluated 1D and 2D CNN-based methods for the classification of methanol and ethanol from Raman spectral data.',
-        'First author of three conference papers: one at ICAEP-9 (2025) and two oral papers at ICPA-NCOS 14 (2026).'
+        'First author of three conference papers: one at ICAEP-9 (2025) and an oral paper at FEE 2026 and a poster at ICPA-NCOS 14 (2026).'
       ]
     },
     {
