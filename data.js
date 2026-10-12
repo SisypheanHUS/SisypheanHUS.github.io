@@ -477,7 +477,7 @@ const PUBS = [
     kind: 'Oral', date: '2026-08-30',
     authors: 'D. T. Tuan, N. T. Hieu, A. I. Vodchits, V. A. Orlovich, P. H. Minh, V. Duong (2026)',
     title: 'Raman spectroscopic identification of chemicals using a closed-form Bayesian marginal likelihood',
-    venue: 'FEE 2026'
+    venue: 'FEE 2026 – National Conference on High-Tech Applications in Practice, Military Institute of Science and Technology, Hanoi (9 Oct 2026)'
   },
   {
     kind: 'Poster', date: '2026-08-30',
