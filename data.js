@@ -489,7 +489,7 @@ const PUBS = [
     kind: 'Proceedings', date: '2025-12-01',
     authors: 'Dinh, T. T. & Duong, V. (2025)',
     title: 'Raman spectroscopy for methanol detection: 1D vs. 2D CNN performance evaluation',
-    venue: 'Proceedings of the 9th International Conference on Applied and Engineering Physics (ICAEP-9)'
+    venue: 'Proceedings of the 9th International Conference on Applied and Engineering Physics (ICAEP-9), Nha Trang, Vietnam. ISBN 978-604-357-474-6. <a href="https://drive.google.com/file/d/14afwEQsOZ3XkHiRBsLrkNgR8n0127yDh/view?usp=sharing" target="_blank" rel="noopener" style="color:var(--color-accent)">Proceedings PDF</a>'
   }
 ];
 
