@@ -572,7 +572,7 @@ const MATERIALS = [
 
 const RESUME = {
   school: 'Vietnam National University — University of Science',
-  degree: 'Bachelor of Science in Applied Mathematics · GPA 7.3/10',
+  degree: 'Bachelor of Science in Applied Mathematics · GPA 2.89/4',
   years: 'Aug 2022 — Sep 2026 · Hanoi, Vietnam',
   courses: 'Main courses: differential equations, calculus, PDEs, probability theory, mathematical modelling, statistics. Thesis: Raman Spectroscopy for Methanol Detection, advised by Dr. Vu Duong (Institute of Physics, VAST).',
   roles: [
@@ -653,7 +653,7 @@ const RESUME = {
       bullets: [
         'Develop and validate quantitative alpha signals using Python for data analysis and systematic backtesting, covering hypothesis generation, signal construction, and out-of-sample robustness.',
         'Submitted 1,800+ alphas across global equity markets using Fast Expression Language and Python; built automated pipelines for template mining, correlation-based selection, and Power Pool allocation.',
-        '5-time Grandmaster (top 2%) and 3-time Master (top 8%) in the Genius Program, out of 10,000+ consultants.',
+        '4-time Grandmaster (top 2%) and 2-time Master (top 8%) in the Genius Program, out of 10,000+ consultants.',
         'Exclusive delegate from Vietnam — among 12 selected globally — for the IQC 2025 finals in Singapore.'
       ]
     }
