@@ -84,8 +84,8 @@ const HOME = {
   ],
   now: [
     { role: 'Research Consultant', org: 'WorldQuant BRAIN', what: 'I use techniques such as pre-measured signal pooling (alpha pool), correlation-penalized scoring with hard prod-corr gates, bandit-style weighted sampling with decay (Efraimidis–Spirakis), closed-form local optimization instead of black-box search, and out-of-sample-only validation for capital allocation.' },
-    { role: 'Research Internship', org: 'Vietnam Academy of Science and Technology · Internship', what: 'Institutions of Physics. Supervisor: Dr Vu Duong.', quip: 'If you’re reading this, professor. thank you for guiding a confused particle.' },
-    { role: 'wanderer of thoughts', org: 'Under a good tree. · Full-time', what: 'I’m farming wisdom and try to be able to see math as a painting.' }
+    { role: 'Research Assistant', org: 'Vietnam Academy of Science and Technology · Institute of Physics', what: 'Raman spectroscopy with Bayesian and deep-learning methods. Supervisor: Dr Vu Duong.', quip: 'If you’re reading this, professor. thank you for guiding a confused particle.' },
+    { role: 'Backend Developer', org: 'Atlassian Partner', what: 'Supporting enterprise e-commerce on SAP Commerce Cloud (Hybris): tickets, incidents, release validation.' }
   ],
   reading: [
     { ref: 'Trefethen & Bau', title: 'Numerical Linear Algebra' },
