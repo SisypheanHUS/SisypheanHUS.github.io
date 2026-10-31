@@ -577,36 +577,72 @@ const RESUME = {
   courses: 'Main courses: differential equations, calculus, PDEs, probability theory, mathematical modelling, statistics. Thesis: Raman Spectroscopy for Methanol Detection, advised by Dr. Vu Duong (Institute of Physics, VAST).',
   roles: [
     {
-      role: 'AI Engineer OJT', org: 'VinSmart Future',
-      place: 'Hanoi, Vietnam', when: 'Apr — Jul 2026',
+      role: 'Backend Developer', org: 'Atlassian Partner',
+      place: 'Hanoi, Vietnam', when: 'Nov 2026 — Present',
       bullets: [
-        'Studying and evaluating machine learning approaches for fraud detection, including XGBoost and Random Forest, using the PaySim dataset.'
+        'Supporting enterprise e-commerce operations on SAP Commerce Cloud (Hybris), including order flows, catalogue, pricing, promotions, inventory, payment, and delivery.',
+        'Investigating technical issues through log analysis, configuration checks, SQL queries, and defect reproduction, managing technical tickets and escalations in Jira according to SLA requirements.',
+        'Supporting incident handling, Business Validation Testing (BVT), release validation, and technical documentation in collaboration with QA, DevOps, and client-side technical teams.'
       ]
     },
     {
-      role: 'Summer Research Student', org: 'Vietnam Institute for Advanced Study in Mathematics',
+      role: 'Specialist', org: 'VinSmart Future',
+      place: 'Hanoi, Vietnam', when: 'Jul 2026',
+      bullets: [
+        'Fintech team: anomaly detection with ML models.',
+        'Studied and evaluated machine learning approaches for fraud detection, including XGBoost and Random Forest, using the PaySim dataset.'
+      ]
+    },
+    {
+      role: 'Intern', org: 'VinSmart Future',
+      place: 'Hanoi, Vietnam', when: 'Apr — Jun 2026',
+      bullets: [
+        'LLM and AI infrastructure.'
+      ]
+    },
+    {
+      role: 'Intern AI Engineer', org: 'Kaopiz',
+      place: 'Hanoi, Vietnam', when: 'Feb — Mar 2026',
+      bullets: [
+        'Researched and evaluated tools for AI-driven workflow automation.',
+        'Explored OpenClaw to automate routine tasks, including Jira work logging, data crawling, and multi-source aggregation.',
+        'Assessed Mem0 for chatbot memory, covering its strengths, limitations, and use cases, and compared it with alternative memory approaches: vector databases, retrieval-augmented generation (RAG), and long-term memory layers.'
+      ]
+    },
+    {
+      role: 'Wanderer of Thoughts', org: 'Under a good tree',
+      place: 'On-site', when: 'Dec 2025 — Mar 2026',
+      bullets: [
+        'Full-time self-directed study in pure and applied mathematics, building a deeper foundation for quantitative and scientific research.'
+      ]
+    },
+    {
+      role: 'Summer Research Fellow', org: 'Vietnam Institute for Advanced Study in Mathematics',
       place: 'Hanoi, Vietnam', when: 'Aug — Nov 2025',
       quip: 'great experience. Never coming back, I promise.',
       bullets: [
+        'VIASM Summer School, Research Experience for Undergraduates 2025.',
         'Research in epidemic modeling and actuarial science under the supervision of Dr. Hoang Manh Tuan.',
         'Contributor of a manuscript on a modified SIS model for health insurance pricing.'
       ]
     },
     {
-      role: 'Summer Research Student', org: 'Group of Mathematical Biology, Nara Women’s University',
+      role: 'Summer Program on Mathematical Modeling', org: 'Nara Women’s University',
       place: 'Nara, Japan', when: 'Aug 2025',
       bullets: [
-        'Short summer research program on dynamical systems in population biology.',
+        'Organized by Prof. Takasu Fugo (Nara Women’s University) with co-organizers Fajar Adi Kusumo and Nanang Susyanto (UGM, Indonesia).',
+        'Intensive English-language program on mathematical modeling of population dynamics: ODEs, stochastic models, and Python-based simulations.',
         'Developed and presented a SIR modeling project in R.'
       ]
     },
     {
-      role: 'Research Intern', org: 'Institute of Physics, Vietnam Academy of Science and Technology',
+      role: 'Research Assistant', org: 'Institute of Physics, Vietnam Academy of Science and Technology',
       place: 'Hanoi, Vietnam', when: 'Jul 2025 — Present',
       quip: 'If you’re reading this, professor. thank you for guiding a confused particle.',
       bullets: [
+        'Research under the supervision of Dr. Vu Duong, applying mathematical modeling and machine learning to Raman spectroscopy.',
+        'Bayesian spectral library search for chemical identification, calibration and uncertainty quantification, and benchmarking against classical and deep-learning baselines (1D/2D CNN) on public and cross-instrument datasets.',
         'Proposed a deep learning-based approach for quantifying methanol concentration in ethanol–methanol mixtures using Raman spectroscopy.',
-        'Proposed and evaluated 1D and 2D CNN-based methods for the classification of methanol and ethanol from Raman spectral data.',
         'First author of three conference papers: one at ICAEP-9 (2025) and an oral paper at FEE 2026 and a poster at ICPA-NCOS 14 (2026).'
       ]
     },
@@ -615,6 +651,7 @@ const RESUME = {
       place: 'Hanoi · Remote', when: 'Apr 2024 — Present',
       quip: 'Trying to predict the unpredictable while pretending it’s science.',
       bullets: [
+        'Develop and validate quantitative alpha signals using Python for data analysis and systematic backtesting, covering hypothesis generation, signal construction, and out-of-sample robustness.',
         'Submitted 1,800+ alphas across global equity markets using Fast Expression Language and Python; built automated pipelines for template mining, correlation-based selection, and Power Pool allocation.',
         '5-time Grandmaster (top 2%) and 3-time Master (top 8%) in the Genius Program, out of 10,000+ consultants.',
         'Exclusive delegate from Vietnam — among 12 selected globally — for the IQC 2025 finals in Singapore.'
