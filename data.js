@@ -4,7 +4,7 @@
 const UI = {
   role: 'Applied mathematics · Hanoi',
   search: 'Search notes, posts, files…',
-  homeKicker: 'Student · alpha researcher · writes things down',
+  homeKicker: 'Backend developer · alpha researcher · writes things down',
   epigraph: 'One must imagine Sisyphus happy.',
   epigraphSource: 'Albert Camus, The Myth of Sisyphus',
   readWriting: 'Read the blog',
@@ -76,7 +76,7 @@ const NAV = [
 
 const HOME = {
   headline: 'I write down what I am still figuring out.',
-  intro: 'Applied mathematics student in Hanoi. I do alpha research at WorldQuant <span class="caps">BRAIN</span> and physics research at <span class="caps">IOP VAST</span>. The rest of my mathematics is self-taught, and I only read what brings me joy. This site is where I reflect on and criticize my own work, tell a few jokes, and share whatever else I feel like writing about.',
+  intro: 'Applied mathematics graduate in Hanoi. I work as a backend developer, and on the side do alpha research at WorldQuant <span class="caps">BRAIN</span> and physics research at <span class="caps">IOP VAST</span>. The rest of my mathematics is self-taught, and I only read what brings me joy. This site is where I reflect on and criticize my own work, tell a few jokes, and share whatever else I feel like writing about.',
   stats: [
     { n: 'i', label: 'im not good at math' },
     { n: 'ii', label: 'im going for a master degree in germany for mathematics (hopefully)' },
@@ -679,7 +679,7 @@ const RESUME = {
 
 const ABOUT = {
   paras: [
-    'I am Tuan, a fourth-year applied mathematics student in Hanoi. Most of what I do falls into two piles: probability and modelling on one side, and the daily practice of alpha research on the other. They turned out to be the same skill wearing different clothes, which I did not expect when I started.',
+    'I am Tuan, an applied mathematics graduate in Hanoi, now working as a backend developer, a research consultant and a research assistant, and still studying on the side. Most of what I do outside work falls into two piles: probability and modelling on one side, and the daily practice of alpha research on the other. They turned out to be the same skill wearing different clothes, which I did not expect when I started.',
     'This site exists because I kept losing my own notes. Everything here is something I wrote for myself first: derivations I needed to get straight, guides I wrote after a forum thread got the same question five times, and a few posts that are honestly just diary entries with equations in them.',
     'If any of it is useful, take it. If any of it is wrong, tell me — that is the more valuable email of the two.'
   ],
