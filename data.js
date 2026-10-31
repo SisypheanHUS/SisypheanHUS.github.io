@@ -659,11 +659,11 @@ const RESUME = {
     }
   ],
   skills: [
-    { group: 'Programming languages', items: ['Python', 'R', 'Fast Expression Language', 'LaTeX'] },
-    { group: 'Libraries & frameworks', items: ['TensorFlow', 'PyTorch', 'scikit-learn', 'NumPy', 'Pandas'] },
+    { group: 'Programming languages', items: ['Python', 'Java', 'R', 'SQL', 'Fast Expression Language', 'LaTeX'] },
+    { group: 'Frameworks & tools', items: ['PyTorch', 'TensorFlow', 'scikit-learn', 'NumPy', 'Pandas', 'SAP Commerce Cloud (Hybris)', 'Git', 'Docker', 'Jira'] },
     { group: 'Knowledge areas', items: [
-      'Portfolio construction', 'Backtesting', 'Factor analysis',
-      'Machine learning', 'Deep learning', 'Feature engineering', 'Model validation'
+      'Machine learning', 'Deep learning', 'Optimization', 'Factor investing', 'Portfolio management',
+      'Backtesting', 'Quantitative research', 'Mathematical modeling', 'E-commerce systems'
     ] },
     { group: 'Languages', items: [
       'Vietnamese — Native',
