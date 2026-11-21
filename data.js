@@ -76,7 +76,7 @@ const NAV = [
 
 const HOME = {
   headline: 'I write down what I am still figuring out.',
-  intro: 'Applied mathematics graduate in Hanoi, seeking an MPhil/Master\'s research position. I do alpha research at WorldQuant <span class="caps">BRAIN</span> and physics research at <span class="caps">IOP VAST</span>, with three first-author conference papers on Raman spectroscopy. The rest of my mathematics is self-taught, and I only read what brings me joy. This site is where I reflect on and criticize my own work, tell a few jokes, and share whatever else I feel like writing about.',
+  intro: 'Applied mathematics graduate in VNU-HUS, Hanoi, currently working as Junior Backend Developer, physics research at <span class="caps">IOP VAST</span>, with three first-author conference papers on Raman spectroscopy. This site is where I reflect on and criticize my own work, tell a few jokes and share whatever else I feel like writing about.',
   stats: [
     { n: 'i', label: 'im not good at math' },
     { n: 'ii', label: 'im going for a master degree in germany for mathematics (hopefully)' },
@@ -501,13 +501,13 @@ const PUBS = [
     kind: 'Oral', date: '2026-08-30',
     authors: 'D. T. Tuan, N. T. Hieu, A. I. Vodchits, V. A. Orlovich, P. H. Minh, V. Duong (2026)',
     title: 'Raman spectroscopic identification of chemicals using a closed-form Bayesian marginal likelihood',
-    venue: 'FEE 2026 – National Conference on High-Tech Applications in Practice, Military Institute of Science and Technology, Hanoi (9 Oct 2026)'
+    venue: 'FEE 2026 – National Conference on High-Tech Applications in Practice, Military Institute of Science and Technology, Hanoi (9 Oct 2026). <a href="uploads/papers/fee-2026-bayesian-raman.pdf" target="_blank" rel="noopener" style="color:var(--color-accent)">Paper PDF</a> · <a href="uploads/papers/fee-2026-slides.pdf" target="_blank" rel="noopener" style="color:var(--color-accent)">Slides PDF</a>'
   },
   {
     kind: 'Poster', date: '2026-08-30',
     authors: 'D. T. Tuan, N. T. Hieu, P. H. Minh, V. Duong (2026)',
     title: 'Raman peak matching for component detection in compounds',
-    venue: '14th International Conference on Photonics and Applications (ICPA-NCOS 14)'
+    venue: '14th International Conference on Photonics and Applications (ICPA-NCOS 14). <a href="uploads/papers/icpa-ncos-14-peak-matching.pdf" target="_blank" rel="noopener" style="color:var(--color-accent)">Paper PDF</a> · <a href="uploads/papers/icpa-ncos-14-poster.pdf" target="_blank" rel="noopener" style="color:var(--color-accent)">Poster PDF</a>'
   },
   {
     kind: 'Proceedings', date: '2025-12-01',
@@ -658,6 +658,13 @@ const RESUME = {
         'Organized by Prof. Takasu Fugo (Nara Women’s University) with co-organizers Fajar Adi Kusumo and Nanang Susyanto (UGM, Indonesia).',
         'Intensive English-language program on mathematical modeling of population dynamics: ODEs, stochastic models, and Python-based simulations.',
         'Developed and presented a SIR modeling project in R.'
+      ]
+    },
+    {
+      role: 'Summer School Participant', org: 'VNUHCM University of Science · VIASM',
+      place: 'Ho Chi Minh City, Vietnam', when: 'Aug 2026',
+      bullets: [
+        'Summer School on Mathematical Physics 2026, lectures on conservation laws, shock curves, and Schrödinger operators.'
       ]
     },
     {
