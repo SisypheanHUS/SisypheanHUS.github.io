@@ -315,6 +315,15 @@ function renderResume() {
       ${RESUME.awards.map((a) => `<div style="font:400 14px/1.55 var(--font-body)">${L(a)}</div>`).join('')}
     </div>`;
 
+  const activities = `
+    <div style="display:flex;flex-direction:column;gap:10px">
+      ${ACTIVITIES.map((a) => `
+        <div style="display:grid;grid-template-columns:150px minmax(0,1fr);gap:12px;font:400 14px/1.55 var(--font-body)">
+          <span style="opacity:.55;font-size:12.5px">${a.when}</span>
+          <span>${L(a.what)}</span>
+        </div>`).join('')}
+    </div>`;
+
   const dlBtn = `
     <a href="uploads/Curriculum_Vitae.pdf" target="_blank" class="btn btn-primary" style="margin-left:auto">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 11l5 5 5-5M4 21h16"></path></svg>
@@ -328,7 +337,8 @@ function renderResume() {
     ${band(L(UI.education), education, true, false)}
     ${band(L(UI.experience), roles, false, false)}
     ${band(L(UI.skills), skills, false, false)}
-    ${band(L(UI.awards), awards, false, true)}
+    ${band(L(UI.awards), awards, false, false)}
+    ${band(L(UI.activitiesTitle), activities, false, true)}
   </div>`;
 }
 
