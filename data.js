@@ -4,7 +4,7 @@
 const UI = {
   role: 'Applied mathematics · Hanoi',
   search: 'Search notes, posts, files…',
-  homeKicker: 'Backend developer · alpha researcher · writes things down',
+  homeKicker: 'Applied mathematics · alpha researcher · writes things down',
   epigraph: 'One must imagine Sisyphus happy.',
   epigraphSource: 'Albert Camus, The Myth of Sisyphus',
   readWriting: 'Read the blog',
@@ -28,7 +28,7 @@ const UI = {
   emptyTitle: 'Nothing here yet.',
   emptyBody: 'This section is held open. Send me what belongs here and I will set it in.',
   resumeTitle: 'Resume',
-  resumeIntro: 'The short version. The PDF has everything, including the full alpha research detail.',
+  resumeIntro: 'Applied Mathematics graduate seeking an MPhil/Master\'s research position. Research interests lie in mathematical modelling and statistical learning for data-driven problems: deep learning and Bayesian inference for spectroscopy, epidemic dynamics and actuarial modelling, and quantitative methods in finance. Three first-author conference papers; complementary industry experience in alpha research and machine learning.',
   downloadPdf: 'Download PDF',
   education: 'Education',
   experience: 'Experience',
@@ -76,7 +76,7 @@ const NAV = [
 
 const HOME = {
   headline: 'I write down what I am still figuring out.',
-  intro: 'Applied mathematics graduate in Hanoi. I work as a backend developer, and on the side do alpha research at WorldQuant <span class="caps">BRAIN</span> and physics research at <span class="caps">IOP VAST</span>. The rest of my mathematics is self-taught, and I only read what brings me joy. This site is where I reflect on and criticize my own work, tell a few jokes, and share whatever else I feel like writing about.',
+  intro: 'Applied mathematics graduate in Hanoi, seeking an MPhil/Master\'s research position. I do alpha research at WorldQuant <span class="caps">BRAIN</span> and physics research at <span class="caps">IOP VAST</span>, with three first-author conference papers on Raman spectroscopy. The rest of my mathematics is self-taught, and I only read what brings me joy. This site is where I reflect on and criticize my own work, tell a few jokes, and share whatever else I feel like writing about.',
   stats: [
     { n: 'i', label: 'im not good at math' },
     { n: 'ii', label: 'im going for a master degree in germany for mathematics (hopefully)' },
@@ -529,9 +529,10 @@ const PROJECTS = [
 ];
 
 const ACTIVITIES = [
-  { when: '30 Jul — 8 Aug 2025', what: 'Summer School on Mathematical Biology, VIASM' },
-  { when: 'Aug 2025', what: 'Summer research program, Group of Mathematical Biology, Nara Women’s University' },
-  { when: '10 — 14 Aug 2026', what: 'Summer School on Mathematics and Physics, VIASM' }
+  { when: ‘2024’, what: ‘Samsung Innovation Campus, Artificial Intelligence Course’ },
+  { when: ‘30 Jul — 8 Aug 2025’, what: ‘Summer School on Mathematical Biology, VIASM’ },
+  { when: ‘Aug 2025’, what: ‘Summer research program, Group of Mathematical Biology, Nara Women’s University’ },
+  { when: ‘10 — 14 Aug 2026’, what: ‘Summer School on Mathematical Physics 2026, HCMUS’ }
 ];
 
 const MATERIALS = [
@@ -641,7 +642,7 @@ const RESUME = {
       ]
     },
     {
-      role: 'Summer Research Fellow', org: 'Vietnam Institute for Advanced Study in Mathematics',
+      role: 'Summer Research Student', org: 'Vietnam Institute for Advanced Study in Mathematics',
       place: 'Hanoi, Vietnam', when: 'Aug — Nov 2025',
       quip: 'great experience. Never coming back, I promise.',
       bullets: [
@@ -703,7 +704,7 @@ const RESUME = {
 
 const ABOUT = {
   paras: [
-    'I am Tuan, an applied mathematics graduate in Hanoi, now working as a backend developer, a research consultant and a research assistant, and still studying on the side. Most of what I do outside work falls into two piles: probability and modelling on one side, and the daily practice of alpha research on the other. They turned out to be the same skill wearing different clothes, which I did not expect when I started.',
+    'I am Tuan, an applied mathematics graduate in Hanoi, now working as a research assistant, a research consultant and a backend developer, and seeking an MPhil/Master\'s research position. Most of what I do outside work falls into two piles: probability and modelling on one side, and the daily practice of alpha research on the other. They turned out to be the same skill wearing different clothes, which I did not expect when I started.',
     'This site exists because I kept losing my own notes. Everything here is something I wrote for myself first: derivations I needed to get straight, guides I wrote after a forum thread got the same question five times, and a few posts that are honestly just diary entries with equations in them.',
     'If any of it is useful, take it. If any of it is wrong, tell me — that is the more valuable email of the two.'
   ],
