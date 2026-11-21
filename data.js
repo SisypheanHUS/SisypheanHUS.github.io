@@ -529,10 +529,10 @@ const PROJECTS = [
 ];
 
 const ACTIVITIES = [
-  { when: ‘2024’, what: ‘Samsung Innovation Campus, Artificial Intelligence Course’ },
-  { when: ‘30 Jul — 8 Aug 2025’, what: ‘Summer School on Mathematical Biology, VIASM’ },
-  { when: ‘Aug 2025’, what: ‘Summer research program, Group of Mathematical Biology, Nara Women’s University’ },
-  { when: ‘10 — 14 Aug 2026’, what: ‘Summer School on Mathematical Physics 2026, HCMUS’ }
+  { when: '2024', what: 'Samsung Innovation Campus, Artificial Intelligence Course' },
+  { when: '30 Jul — 8 Aug 2025', what: 'Summer School on Mathematical Biology, VIASM' },
+  { when: 'Aug 2025', what: 'Summer research program, Group of Mathematical Biology, Nara Women’s University' },
+  { when: '10 — 14 Aug 2026', what: 'Summer School on Mathematical Physics 2026, HCMUS' }
 ];
 
 const MATERIALS = [
